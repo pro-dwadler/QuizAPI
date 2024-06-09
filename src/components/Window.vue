@@ -13,7 +13,7 @@ const quiz = ref({
     },
     modules: [
         {
-            type: "EASY",
+            type: "ANAGRAM",
             queries: [
                 { index: 1, query: "", reply: "" }
             ]
