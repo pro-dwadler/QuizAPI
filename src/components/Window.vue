@@ -22,6 +22,16 @@ onMounted(async () => {
         .then(res => quiz.value = res)
         .catch(() => { console.log("error retrieving quiz") })
 })
+
+const mapLevelToNumber = { EASY: 0, MEDIUM: 1, HARD: 2, ANAGRAM: 3, MUSIC: 4 };
+const mapNumberToLevel = ["EASY", "MEDIUM", "HARD", "ANAGRAM", "MUSIC"];
+function swipe(direction) {
+    var current = mapLevelToNumber[tab.value];
+    if (direction == 'Right') current++;
+    else current--;
+    current = current + 4;
+    tab.value = mapNumberToLevel(current % 4)
+}
 </script>
 
 <template>
@@ -30,13 +40,16 @@ onMounted(async () => {
 
         <v-toolbar color="primary">
 
-            <v-toolbar-title class="libre-baskerville-regular">{{ quiz.date }}</v-toolbar-title>
+            <v-toolbar-title class="libre-baskerville-regular">
+                <div>{{ quiz.date }}</div>
+            </v-toolbar-title>
 
             <v-spacer></v-spacer>
 
             <template v-slot:extension>
                 <v-tabs v-model="tab" bg-color="primary">
-                    <v-tab class="libre-baskerville-regular" v-for="module in quiz.modules" :key="module.type" :value="module.type">{{ module.type
+                    <v-tab class="libre-baskerville-regular" v-for="module in quiz.modules" :key="module.type"
+                        :value="module.type">{{ module.type
                         }}</v-tab>
                 </v-tabs>
             </template>
@@ -45,13 +58,16 @@ onMounted(async () => {
 
 
 
-        <v-tabs-window v-model="tab">
+        <v-tabs-window v-model="tab" v-touch="{
+            left: () => swipe('Left'),
+            right: () => swipe('Right'),
+        }">
             <v-tabs-window-item v-for="module in quiz.modules" :key="module.type" :value="module.type">
 
                 <v-card flat>
                     <v-card-text>
-                        <AnagramRound v-if="module.type === 'ANAGRAM'" :quiz="module"/>
-                        <MusicRound v-else-if="module.type === 'MUSIC'" :quiz="module"/>
+                        <AnagramRound v-if="module.type === 'ANAGRAM'" :quiz="module" />
+                        <MusicRound v-else-if="module.type === 'MUSIC'" :quiz="module" />
                         <Round v-else :quiz="module" />
                     </v-card-text>
                 </v-card>
@@ -66,9 +82,10 @@ onMounted(async () => {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 .libre-baskerville-regular {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 </style>
