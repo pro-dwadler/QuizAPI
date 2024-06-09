@@ -17,7 +17,7 @@ const props = defineProps(['quiz'])
         </v-btn>
 
         <v-sheet v-for="item in quiz.queries" :key="item" elevation="5" rounded class="mb-5 pa-5">
-            <v-textarea bg-color="grey-lighten-2" :label="'#' + item.index" variant="outlined" v-model="item.query" readonly />
+            <v-textarea bg-color="grey-lighten-2" :label="'#' + item.index" variant="outlined" v-model="item.query" readonly rows="1" auto-grow/>
             <v-text-field v-if="!showAnswer" label="Your Answer" v-model="item.yourAnswer" variant="outlined" />
             <v-text-field v-if="showAnswer" label="Your Answer" v-model="item.yourAnswer" variant="outlined" readonly />
             <v-text-field v-if="showAnswer" label="Correct Answer" v-model="item.reply" variant="outlined" readonly />

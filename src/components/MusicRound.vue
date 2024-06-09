@@ -29,8 +29,8 @@ function test(url) {
                 variant="outlined" />
             <v-text-field v-if="showAnswer" label="Your Answer (Artist, Title)" v-model="item.yourAnswer"
                 variant="outlined" readonly />
-            <v-text-field v-if="showAnswer" label="Correct Answer (Artist, Title)" variant="outlined" readonly
-                :model-value="item.artist + ', ' + item.title" />
+            <v-textarea v-if="showAnswer" label="Correct Answer" variant="outlined" readonly
+                :model-value="'Artist:\n'+item.artist + '\n\n' + 'Title:\n'+item.title" rows="2" auto-grow/>
         </v-sheet>
 
 
