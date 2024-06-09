@@ -6,7 +6,11 @@ import AnagramRound from './AnagramRound.vue';
 import MusicRound from './MusicRound.vue';
 const tab = ref(null)
 const quiz = ref({
-    date: new Date().toDateString(),
+    date: {
+        day: "Monday",
+        date: "June 3",
+        year: "2024",
+    },
     modules: [
         {
             type: "EASY",
@@ -28,9 +32,15 @@ onMounted(async () => {
 
     <v-card color="basil">
 
-        <v-card-title class="text-center justify-center py-6">
-            <h1 class="font-weight-bold text-h2 text-basil">
-                {{ quiz.date }}
+        <v-card-title class="text-left justify-center py-6">
+            <h1 class="font-weight-bold text-h2 text-basil text-wrap">
+                {{ quiz.date.year }}
+            </h1>
+            <h1 class="font-weight-bold text-h2 text-basil text-wrap">
+                {{ quiz.date.date }}
+            </h1>
+            <h1 class="font-weight-bold text-h2 text-basil text-wrap">
+                {{ quiz.date.day }}
             </h1>
         </v-card-title>
 

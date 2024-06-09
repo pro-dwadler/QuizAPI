@@ -1,7 +1,12 @@
 import dayjs from 'dayjs'
 
 export function formatDate(date) {
-    return dayjs(new Date(date)).format("MMMM DD, dddd, YYYY")
+    const dt = dayjs(new Date(date))
+    return {
+        day: dt.format("dddd"),
+        date: dt.format("MMMM D"),
+        year: dt.format("YYYY"),
+    }
 }
 
 export async function getLastQuiz() {
