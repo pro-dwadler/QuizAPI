@@ -30,13 +30,13 @@ onMounted(async () => {
 
         <v-toolbar color="primary">
 
-            <v-toolbar-title>{{ quiz.date }}</v-toolbar-title>
+            <v-toolbar-title class="libre-baskerville-regular">{{ quiz.date }}</v-toolbar-title>
 
             <v-spacer></v-spacer>
 
             <template v-slot:extension>
                 <v-tabs v-model="tab" bg-color="primary">
-                    <v-tab v-for="module in quiz.modules" :key="module.type" :value="module.type">{{ module.type
+                    <v-tab class="libre-baskerville-regular" v-for="module in quiz.modules" :key="module.type" :value="module.type">{{ module.type
                         }}</v-tab>
                 </v-tabs>
             </template>
@@ -65,5 +65,10 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 </style>

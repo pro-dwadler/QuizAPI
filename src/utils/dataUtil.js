@@ -1,6 +1,12 @@
+import dayjs from 'dayjs'
+
+export function formatDate(date) {
+    return dayjs(new Date(date)).format("MMMM DD, dddd, YYYY")
+}
+
 export async function getLastQuiz() {
     return {
-        date: '2024-06-03',
+        date: formatDate("2024-06-03"),
         modules: [
             {
                 type: 'EASY',
