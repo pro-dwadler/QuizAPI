@@ -8,6 +8,63 @@ export async function getLastQuiz() {
     return {
         date: formatDate("2024-06-03"),
         modules: [
+
+            {
+                type: 'ANAGRAM',
+                theme: 'Fashion Designers',
+                queries: [
+                    {
+                        index: 1,
+                        query: 'Brutish Inoculation',
+                        reply: 'Christian Louboutin'
+                    },
+                    {
+                        index: 2,
+                        query: 'Jaguar Teal Lineup',
+                        reply: 'Jean Paul Gaultier'
+                    },
+                    {
+                        index: 3,
+                        query: 'Relent Cataclysm',
+                        reply: 'Stella McCartney'
+                    },
+                    {
+                        index: 4,
+                        query: 'Anger Axle Wand',
+                        reply: 'Alexander Wang'
+                    },
+                    {
+                        index: 5,
+                        query: 'Acid Rica Puma',
+                        reply: 'Miuccia Prada'
+                    },
+                    {
+                        index: 6,
+                        query: 'Caribbean Lilac Goats',
+                        reply: 'Cristobal Balenciaga'
+                    },
+                    {
+                        index: 7,
+                        query: 'Baby Terror Hums',
+                        reply: 'Thomas Burberry'
+                    },
+                    {
+                        index: 8,
+                        query: 'Drain Historic',
+                        reply: 'Christian Dior'
+                    },
+                    {
+                        index: 9,
+                        query: 'Woven Tweed Vision',
+                        reply: 'Vivienne Westwood'
+                    },
+                    {
+                        index: 10,
+                        query: 'Yahoo Oat Jimmy',
+                        reply: 'Yohji Yamamoto'
+                    }
+                ]
+            },
             {
                 type: 'EASY',
                 queries: [
@@ -119,117 +176,6 @@ export async function getLastQuiz() {
                 ]
             },
             {
-                type: 'HARD',
-                queries: [
-                    {
-                        index: 1,
-                        query: 'Which movie in 1989 did Prince sang for?',
-                        reply: 'Batman'
-                    },
-                    {
-                        index: 2,
-                        query: 'In 15th centruy, smallpox was called smallpox to distinguish it from which other disease?',
-                        reply: 'Syphilis'
-                    },
-                    {
-                        index: 3,
-                        query: 'Who founded the Berliner Ensemble in 1949?',
-                        reply: 'Helene Weigel and her husband, Bertolt Brecht'
-                    },
-                    {
-                        index: 4,
-                        query: 'Which country has hight female in parliament? (+1 point for top 3 countries)',
-                        reply: 'Rwanda, Cuba,Nicaragua '
-                    },
-                    {
-                        index: 5,
-                        query: 'In which country has the largest TRex skeleton been found?',
-                        reply: 'Canada'
-                    },
-                    {
-                        index: 6,
-                        query: 'Which artist made "The Dinner Party" art comprising of a banquet, arranged on a triangular table with total 39 place settingsm each for an important women in history?',
-                        reply: 'Judy Chicago'
-                    },
-                    {
-                        index: 7,
-                        query: 'Name 2 of the 5 popular tags used in Grindr in 2023? (Grindr app each year releases intereting facts and tags are profile indications like twink, bear etc)',
-                        reply: 'Hung, Trans, bb, dom, feet'
-                    },
-                    {
-                        index: 8,
-                        query: 'A capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal .',
-                        reply: 'Canberra'
-                    },
-                    {
-                        index: 9,
-                        query: 'What\'s the first commandment? (vague idea is fine)',
-                        reply: 'You shall have no other gods before me'
-                    },
-                    {
-                        index: 10,
-                        query: 'Who created small animations in Monty Python?',
-                        reply: 'Terry Gilliam'
-                    }
-                ]
-            },
-            {
-                type: 'ANAGRAM',
-                theme: 'Fashion Designers',
-                queries: [
-                    {
-                        index: 1,
-                        query: 'Brutish Inoculation',
-                        reply: 'Christian Louboutin'
-                    },
-                    {
-                        index: 2,
-                        query: 'Jaguar Teal Lineup',
-                        reply: 'Jean Paul Gaultier'
-                    },
-                    {
-                        index: 3,
-                        query: 'Relent Cataclysm',
-                        reply: 'Stella McCartney'
-                    },
-                    {
-                        index: 4,
-                        query: 'Anger Axle Wand',
-                        reply: 'Alexander Wang'
-                    },
-                    {
-                        index: 5,
-                        query: 'Acid Rica Puma',
-                        reply: 'Miuccia Prada'
-                    },
-                    {
-                        index: 6,
-                        query: 'Caribbean Lilac Goats',
-                        reply: 'Cristobal Balenciaga'
-                    },
-                    {
-                        index: 7,
-                        query: 'Baby Terror Hums',
-                        reply: 'Thomas Burberry'
-                    },
-                    {
-                        index: 8,
-                        query: 'Drain Historic',
-                        reply: 'Christian Dior'
-                    },
-                    {
-                        index: 9,
-                        query: 'Woven Tweed Vision',
-                        reply: 'Vivienne Westwood'
-                    },
-                    {
-                        index: 10,
-                        query: 'Yahoo Oat Jimmy',
-                        reply: 'Yohji Yamamoto'
-                    }
-                ]
-            },
-            {
                 type: 'MUSIC',
                 theme: 'Old and New',
                 queries: [
@@ -292,6 +238,61 @@ export async function getLastQuiz() {
                         query: 'https://www.youtube.com/watch?v=oKR5beC4vkQ',
                         artist: 'New Boyz',
                         title: 'You\'re A Jerk'
+                    }
+                ]
+            },
+            {
+                type: 'HARD',
+                queries: [
+                    {
+                        index: 1,
+                        query: 'Which movie in 1989 did Prince sang for?',
+                        reply: 'Batman'
+                    },
+                    {
+                        index: 2,
+                        query: 'In 15th centruy, smallpox was called smallpox to distinguish it from which other disease?',
+                        reply: 'Syphilis'
+                    },
+                    {
+                        index: 3,
+                        query: 'Who founded the Berliner Ensemble in 1949?',
+                        reply: 'Helene Weigel and her husband, Bertolt Brecht'
+                    },
+                    {
+                        index: 4,
+                        query: 'Which country has hight female in parliament? (+1 point for top 3 countries)',
+                        reply: 'Rwanda, Cuba,Nicaragua '
+                    },
+                    {
+                        index: 5,
+                        query: 'In which country has the largest TRex skeleton been found?',
+                        reply: 'Canada'
+                    },
+                    {
+                        index: 6,
+                        query: 'Which artist made "The Dinner Party" art comprising of a banquet, arranged on a triangular table with total 39 place settingsm each for an important women in history?',
+                        reply: 'Judy Chicago'
+                    },
+                    {
+                        index: 7,
+                        query: 'Name 2 of the 5 popular tags used in Grindr in 2023? (Grindr app each year releases intereting facts and tags are profile indications like twink, bear etc)',
+                        reply: 'Hung, Trans, bb, dom, feet'
+                    },
+                    {
+                        index: 8,
+                        query: 'A capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal .',
+                        reply: 'Canberra'
+                    },
+                    {
+                        index: 9,
+                        query: 'What\'s the first commandment? (vague idea is fine)',
+                        reply: 'You shall have no other gods before me'
+                    },
+                    {
+                        index: 10,
+                        query: 'Who created small animations in Monty Python?',
+                        reply: 'Terry Gilliam'
                     }
                 ]
             }

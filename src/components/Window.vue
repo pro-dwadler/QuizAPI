@@ -26,32 +26,23 @@ onMounted(async () => {
 
 <template>
 
-    <v-card>
+    <v-card color="basil">
 
-        <v-toolbar color="primary">
-
-            <v-toolbar-title class="libre-baskerville-regular">
+        <v-card-title class="text-center justify-center py-6">
+            <h1 class="font-weight-bold text-h2 text-basil">
                 {{ quiz.date }}
-            </v-toolbar-title>
+            </h1>
+        </v-card-title>
 
-            <v-spacer></v-spacer>
-
-            <template v-slot:extension>
-                <v-tabs v-model="tab" bg-color="primary">
-                    <v-tab class="libre-baskerville-regular" v-for="module in quiz.modules" :key="module.type"
-                        :value="module.type">{{ module.type
-                        }}</v-tab>
-                </v-tabs>
-            </template>
-        </v-toolbar>
-
-
-
+        <v-tabs v-model="tab" bg-color="transparent" color="basil" grow>
+            <v-tab v-for="module in quiz.modules" :key="module.type" :value="module.type">{{ module.type
+                }}</v-tab>
+        </v-tabs>
 
         <v-tabs-window v-model="tab">
             <v-tabs-window-item v-for="module in quiz.modules" :key="module.type" :value="module.type">
 
-                <v-card flat>
+                <v-card color="basil" flat>
                     <v-card-text>
                         <AnagramRound v-if="module.type === 'ANAGRAM'" :quiz="module" />
                         <MusicRound v-else-if="module.type === 'MUSIC'" :quiz="module" />
@@ -62,17 +53,16 @@ onMounted(async () => {
             </v-tabs-window-item>
         </v-tabs-window>
 
-
     </v-card>
 
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.bg-basil {
+    background-color: #FFFBE6 !important;
+}
 
-.libre-baskerville-regular {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
+.text-basil {
+    color: #356859 !important;
 }
 </style>
