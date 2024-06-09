@@ -22,16 +22,6 @@ onMounted(async () => {
         .then(res => quiz.value = res)
         .catch(() => { console.log("error retrieving quiz") })
 })
-
-const mapLevelToNumber = { EASY: 0, MEDIUM: 1, HARD: 2, ANAGRAM: 3, MUSIC: 4 };
-const mapNumberToLevel = ["EASY", "MEDIUM", "HARD", "ANAGRAM", "MUSIC"];
-function swipe(direction) {
-    var current = mapLevelToNumber[tab.value];
-    if (direction == 'Right') current++;
-    else current--;
-    current = current + 4;
-    tab.value = mapNumberToLevel(current % 4)
-}
 </script>
 
 <template>
@@ -41,7 +31,7 @@ function swipe(direction) {
         <v-toolbar color="primary">
 
             <v-toolbar-title class="libre-baskerville-regular">
-                <div>{{ quiz.date }}</div>
+                {{ quiz.date }}
             </v-toolbar-title>
 
             <v-spacer></v-spacer>
@@ -58,10 +48,7 @@ function swipe(direction) {
 
 
 
-        <v-tabs-window v-model="tab" v-touch="{
-            left: () => swipe('Left'),
-            right: () => swipe('Right'),
-        }">
+        <v-tabs-window v-model="tab">
             <v-tabs-window-item v-for="module in quiz.modules" :key="module.type" :value="module.type">
 
                 <v-card flat>
