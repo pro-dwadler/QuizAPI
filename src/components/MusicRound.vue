@@ -25,6 +25,9 @@ function test(url) {
 
             <v-text-field @click:append="test(item.query)" append-icon="mdi-open-in-new" :label="'#' + item.index"
                 variant="outlined" v-model="item.query" readonly />
+                <iframe width="100%" height="315"
+:src="item.query.replace('watch?v=','embed/')">
+</iframe>
             <v-text-field v-if="!showAnswer" label="Your Answer (Artist, Title)" v-model="item.yourAnswer"
                 variant="outlined" />
             <v-text-field v-if="showAnswer" label="Your Answer (Artist, Title)" v-model="item.yourAnswer"
