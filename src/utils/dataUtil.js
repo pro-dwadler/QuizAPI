@@ -12,7 +12,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 2,
-                        query: 'Which carabian country played a key role in the missile scare?',
+                        query: 'Which Caribbean country played a key role in the missile scare?',
                         reply: 'Cuba'
                     },
                     {
