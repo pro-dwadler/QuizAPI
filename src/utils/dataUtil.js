@@ -276,7 +276,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 6,
-                        query: 'Which artist made "The Dinner Party" art comprising of a banquet, arranged on a triangular table with total 39 place settingsm each for an important women in history?',
+                        query: 'Which artist made "The Dinner Party" art comprising of a banquet, arranged on a triangular table with total 39 place settings each for an important women in history?',
                         reply: 'Judy Chicago'
                     },
                     {
@@ -286,12 +286,12 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 8,
-                        query: 'A capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal .',
+                        query: 'A capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal. Which city is this?',
                         reply: 'Canberra'
                     },
                     {
                         index: 9,
-                        query: 'What\'s the first commandment? (vague idea is fine)',
+                        query: 'What\'s the first commandment? A vague idea is fine.',
                         reply: 'You shall have no other gods before me'
                     },
                     {
