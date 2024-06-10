@@ -211,13 +211,13 @@ export async function getLastQuiz() {
                     {
                         index: 5,
                         query: 'https://www.youtube.com/watch?v=6dYWe1c3OyU',
-                        artist: 'I Will Survive',
+                        artist: 'Gloria Gaynor',
                         title: 'I Will Survive'
                     },
                     {
                         index: 6,
                         query: 'https://www.youtube.com/watch?v=QGJuMBdaqIw',
-                        artist: 'Katty Perry',
+                        artist: 'Katy Perry',
                         title: 'Firework'
                     },
                     {
@@ -229,8 +229,8 @@ export async function getLastQuiz() {
                     {
                         index: 8,
                         query: 'https://www.youtube.com/watch?v=qbs3aAxha70',
-                        artist: 'Don\'t Rain On My Parade',
-                        title: 'Barbra Streisand'
+                        artist: 'Barbra Streisand',
+                        title: 'Don\'t Rain On My Parade'
                     },
                     {
                         index: 9,
