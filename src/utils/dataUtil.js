@@ -130,22 +130,22 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Which country flag has a black double headed eagle on red background?',
+                        query: 'Which country\'s flag has a black double headed eagle on a red background?',
                         reply: 'Albania'
                     },
                     {
                         index: 2,
-                        query: 'In pastry and/or backery world, what\'s laminating?',
+                        query: 'In the pastry and/or backery world, what\'s laminating?',
                         reply: 'Folding and rolling butter into dough'
                     },
                     {
                         index: 3,
-                        query: 'Which element has chemical symbol Pb?',
+                        query: 'Which element has the chemical symbol Pb?',
                         reply: 'Lead'
                     },
                     {
                         index: 4,
-                        query: 'Apart from being birds, what does Flamingos, Pigeons and Penguins (especially male emperor penguins)?',
+                        query: 'Apart from being birds, what does Flamingos, Pigeons and Penguins (especially male emperor penguins) have in common?',
                         reply: 'They produce milk'
                     },
                     {
@@ -155,12 +155,12 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 6,
-                        query: 'Which country joined NATO in march?',
+                        query: 'Which country joined NATO in March 2024?',
                         reply: 'Sweden'
                     },
                     {
                         index: 7,
-                        query: 'How many steps are there to reach the top of Berliner dome? +-30',
+                        query: 'How many steps would you have to take to reach the top of the Berliner dome? +-30',
                         reply: '270'
                     },
                     {
@@ -175,7 +175,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 10,
-                        query: 'Juggalos and Juggalette, are fan group of which singer/group?',
+                        query: 'Juggalos and Juggalette, are a fan group of which singer/group?',
                         reply: 'Insane Clown Posse'
                     }
                 ]
@@ -266,12 +266,12 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 4,
-                        query: 'Which country has hight female in parliament? (+1 point for top 3 countries)',
-                        reply: 'Rwanda, Cuba,Nicaragua '
+                        query: 'Which country has the highest female percentage in their parliament? (+1 point for top 3 countries)',
+                        reply: 'Rwanda, Cuba, Nicaragua '
                     },
                     {
                         index: 5,
-                        query: 'In which country has the largest TRex skeleton been found?',
+                        query: 'In which country, was the largest TRex skeleton found?',
                         reply: 'Canada'
                     },
                     {
@@ -286,7 +286,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 8,
-                        query: 'A capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal. Which city is this?',
+                        query: 'There\'s a capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal. Which city is this?',
                         reply: 'Canberra'
                     },
                     {
@@ -296,7 +296,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 10,
-                        query: 'Who created small animations in Monty Python?',
+                        query: 'Who created the small animations in Monty Python?',
                         reply: 'Terry Gilliam'
                     }
                 ]
