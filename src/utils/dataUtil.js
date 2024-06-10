@@ -11,62 +11,62 @@ export function formatDate(date) {
 
 export async function getLastQuiz() {
     return {
-        date: formatDate("2024-06-03"),
+        date: formatDate("2024-06-10"),
         modules: [
 
             {
                 type: 'ANAGRAM',
-                theme: 'Fashion Designers',
+                theme: 'Queer Musicians',
                 queries: [
                     {
                         index: 1,
-                        query: 'Brutish Inoculation',
-                        reply: 'Christian Louboutin'
+                        query: 'Cider Furry Meed',
+                        reply: 'Freddie Mercury'
                     },
                     {
                         index: 2,
-                        query: 'Jaguar Teal Lineup',
-                        reply: 'Jean Paul Gaultier'
+                        query: 'Aloe Jenn Male',
+                        reply: 'Janelle Monae'
                     },
                     {
                         index: 3,
-                        query: 'Relent Cataclysm',
-                        reply: 'Stella McCartney'
+                        query: 'Clatterer Theory',
+                        reply: 'Tyler the Creator'
                     },
                     {
                         index: 4,
-                        query: 'Anger Axle Wand',
-                        reply: 'Alexander Wang'
+                        query: 'Lucy Misery',
+                        reply: 'Miley Cyrus'
                     },
                     {
                         index: 5,
-                        query: 'Acid Rica Puma',
-                        reply: 'Miuccia Prada'
+                        query: 'Emu Furs Peeing',
+                        reply: 'Perfume Genius'
                     },
                     {
                         index: 6,
-                        query: 'Caribbean Lilac Goats',
-                        reply: 'Cristobal Balenciaga'
+                        query: 'A Embroiling Jostler',
+                        reply: 'Billie Joe Armstrong'
                     },
                     {
                         index: 7,
-                        query: 'Baby Terror Hums',
-                        reply: 'Thomas Burberry'
+                        query: 'Hero Jolt Sinn',
+                        reply: 'Sir Elton John '
                     },
                     {
                         index: 8,
-                        query: 'Drain Historic',
-                        reply: 'Christian Dior'
+                        query: 'Ribber Sheepdog',
+                        reply: 'Phoebe Bridgers'
                     },
                     {
                         index: 9,
-                        query: 'Woven Tweed Vision',
-                        reply: 'Vivienne Westwood'
+                        query: 'Hangnails Omelette',
+                        reply: 'Megan Thee Stallion'
                     },
                     {
                         index: 10,
-                        query: 'Yahoo Oat Jimmy',
-                        reply: 'Yohji Yamamoto'
+                        query: 'A Moral Pool',
+                        reply: 'Omar Apollo'
                     }
                 ]
             },
@@ -75,53 +75,53 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'What tile based game was developed in 19th century China with 144 tiles?',
-                        reply: 'Mahjong'
+                        query: 'Which element has the chemical symbol Fe?',
+                        reply: 'Iron'
                     },
                     {
                         index: 2,
-                        query: 'Which Caribbean country played a key role in the missile scare?',
-                        reply: 'Cuba'
+                        query: 'Which is the longest river?',
+                        reply: 'Nile'
                     },
                     {
                         index: 3,
-                        query: 'What is the shape of DNA called?',
-                        reply: 'Double Helix'
+                        query: 'What is the second most spoken language in Spain?',
+                        reply: 'Catalan'
                     },
                     {
                         index: 4,
-                        query: 'Germany has 3 city states i.e. which are city as well states like Berlin, What are the other two?',
-                        reply: 'Bremen, Hamburg'
+                        query: '[Riddle] How does a non-binary person kill someone?',
+                        reply: 'They-Slash-Them (or another accepted one, by slaying)'
                     },
                     {
                         index: 5,
-                        query: 'There is a protest planned on June 23rd in Paris. How are the people planning on protesting?',
-                        reply: 'Flash mob to poop in the river'
+                        query: 'In Greek mythology, who is the queen of underworld and wife of Hades?',
+                        reply: 'Persephone'
                     },
                     {
                         index: 6,
-                        query: 'Which is the largest tech company in South Korea?',
-                        reply: 'Samsung'
+                        query: 'What is the fictional city of Batman?',
+                        reply: 'Gotham city'
                     },
                     {
                         index: 7,
-                        query: 'There is an early online phenomemon called 6 degree of "what"?',
-                        reply: 'Kevin Bacon'
+                        query: 'In Indian cooking, what is the mixture of ground spices called?',
+                        reply: 'Masala'
                     },
                     {
                         index: 8,
-                        query: 'Name the 4 countries which has Q in their names?',
-                        reply: 'Qatar, Equatorial Guinea, Mozambique, Iraq'
+                        query: 'In the Queer Rainbow flag, what color does red represent?',
+                        reply: 'Life'
                     },
                     {
                         index: 9,
-                        query: 'Which animal is in the Porche logo?',
-                        reply: 'Horse'
+                        query: 'In the US Office version, which city do they live in?',
+                        reply: 'Scranton'
                     },
                     {
                         index: 10,
-                        query: 'What grain is used to make Japanese sake?',
-                        reply: 'Rice'
+                        query: 'When was the first IPhone released? +-1',
+                        reply: '2007'
                     }
                 ]
             },
@@ -130,119 +130,119 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Which country\'s flag has a black double headed eagle on a red background?',
-                        reply: 'Albania'
+                        query: 'Fill in the blanks, Lana Del Rey\'s album is called \'Did you know there\'s a tunner under _____ _____\' ?',
+                        reply: 'Ocean Blvd'
                     },
                     {
                         index: 2,
-                        query: 'In the pastry and/or backery world, what\'s laminating?',
-                        reply: 'Folding and rolling butter into dough'
+                        query: 'Which city did Napoleon got exiled the second time?',
+                        reply: 'St Helena'
                     },
                     {
                         index: 3,
-                        query: 'Which element has the chemical symbol Pb?',
-                        reply: 'Lead'
+                        query: 'What does the following 3 slang refer to (i) Shove Devil (ii) Shaft of delight (iii) Belly Ticker ?',
+                        reply: 'Penises'
                     },
                     {
                         index: 4,
-                        query: 'Apart from being birds, what does Flamingos, Pigeons and Penguins (especially male emperor penguins) have in common?',
-                        reply: 'They produce milk'
+                        query: 'What\'s the difference between a coffin and a casket?',
+                        reply: 'Coffin gets wider at shoulders and taper thinner at feet while casket is rectangular'
                     },
                     {
                         index: 5,
-                        query: 'What\'s the name of the monster in the epic poem Beowulf?',
-                        reply: 'Grendel'
+                        query: 'Name song and the artist: Blue as the sky, sunburnt and lonely; Sipping tea in a bar by the roadside; Don\'t you let those other boys fool you; Got to love that afro hairdo?',
+                        reply: 'Put Your Records On by Corinne Bailey Rae'
                     },
                     {
                         index: 6,
-                        query: 'Which country joined NATO in March 2024?',
-                        reply: 'Sweden'
+                        query: 'Who is the first female president of Mexico?',
+                        reply: 'Claudia Sheinbaum'
                     },
                     {
                         index: 7,
-                        query: 'How many steps would you have to take to reach the top of the Berliner dome? +-30',
-                        reply: '270'
+                        query: 'What does FLINTA stands for?',
+                        reply: 'Female, Lesbian, Intersex, Trans and Agender'
                     },
                     {
                         index: 8,
-                        query: 'Which voice actor is famous for voicing both Darth Vadar and Mustafa?',
-                        reply: 'James Earl Jones'
+                        query: 'Which accoding to MTV\'s is the most controversial music video?',
+                        reply: 'Like a Prayer by Madonna'
                     },
                     {
                         index: 9,
-                        query: 'What is the suffix of the word Helicopter?',
-                        reply: 'pter'
+                        query: 'Which poison does apple seed contain?',
+                        reply: 'cyanide'
                     },
                     {
                         index: 10,
-                        query: 'Juggalos and Juggalette, are a fan group of which singer/group?',
-                        reply: 'Insane Clown Posse'
+                        query: 'What is the solid remain of grapes, olives, or other fruit called after pressing for juice or oil?',
+                        reply: 'Pomace'
                     }
                 ]
             },
             {
                 type: 'MUSIC',
-                theme: 'Old and New',
+                theme: 'No Theme. All songs are LGBTQ icons. And music only played for one second (for the last one maybe 10 sec)',
                 queries: [
                     {
                         index: 1,
-                        query: 'https://www.youtube.com/watch?v=LB5YkmjalDg',
-                        artist: 'Huey Lewis & The News',
-                        title: 'Hip To Be Square'
+                        query: 'https://www.youtube.com/watch?v=gD6cPE2BHic',
+                        artist: 'Sylvester',
+                        title: 'You Make Me Feel'
                     },
                     {
                         index: 2,
-                        query: 'https://www.youtube.com/watch?v=gOd5E0HPNSs',
-                        artist: 'Old',
-                        title: 'Paul Simon'
+                        query: 'https://www.youtube.com/watch?v=LPn0KFlbqX8',
+                        artist: 'Cyndi Lauper',
+                        title: 'True Colors'
                     },
                     {
                         index: 3,
-                        query: 'https://www.youtube.com/watch?v=XXTzm5GtqVo',
-                        artist: 'Got Your Money',
-                        title: 'Ol\' Dirty Bastard'
+                        query: 'https://www.youtube.com/watch?v=GuJQSAiODqI',
+                        artist: 'Madonna',
+                        title: 'Vogue'
                     },
                     {
                         index: 4,
-                        query: 'https://www.youtube.com/watch?v=zndpi8tNZyQ',
-                        artist: 'Neu!',
-                        title: 'Hallogallo'
+                        query: 'https://www.youtube.com/watch?v=N3RB_56WziA',
+                        artist: 'RuPaul',
+                        title: 'Cover Girl'
                     },
                     {
                         index: 5,
-                        query: 'https://www.youtube.com/watch?v=1gX1EP6mG-E',
-                        artist: 'Old Crow Medicine Show',
-                        title: 'Wagon Wheel'
+                        query: 'https://www.youtube.com/watch?v=6dYWe1c3OyU',
+                        artist: 'I Will Survive',
+                        title: 'I Will Survive'
                     },
                     {
                         index: 6,
-                        query: 'https://www.youtube.com/watch?v=QWfZ5SZZ4xE',
-                        artist: 'Pattie LaBelle',
-                        title: 'New Attitude'
+                        query: 'https://www.youtube.com/watch?v=QGJuMBdaqIw',
+                        artist: 'Katty Perry',
+                        title: 'Firework'
                     },
                     {
                         index: 7,
-                        query: 'https://www.youtube.com/watch?v=N2qk6VZokx0',
-                        artist: 'Queen',
-                        title: 'Good Old-Fashioned Lover Boy'
+                        query: 'https://www.youtube.com/watch?v=uo5o_R8txUo',
+                        artist: 'Village People',
+                        title: 'Macho Man'
                     },
                     {
                         index: 8,
-                        query: 'https://www.youtube.com/watch?v=rVeMiVU77wo',
-                        artist: 'Alt-J',
-                        title: 'Breezeblocks'
+                        query: 'https://www.youtube.com/watch?v=qbs3aAxha70',
+                        artist: 'Don\'t Rain On My Parade',
+                        title: 'Barbra Streisand'
                     },
                     {
                         index: 9,
-                        query: 'https://www.youtube.com/watch?v=KkvTYrFIxNM',
-                        artist: 'Taylor Swift',
-                        title: 'New Year\'s Day'
+                        query: 'https://www.youtube.com/watch?v=AJWtLf4-WWs',
+                        artist: 'Britney Spears',
+                        title: 'Stronger'
                     },
                     {
                         index: 10,
-                        query: 'https://www.youtube.com/watch?v=oKR5beC4vkQ',
-                        artist: 'New Boyz',
-                        title: 'You\'re A Jerk'
+                        query: 'https://www.youtube.com/watch?v=yEbaeLv-aOo',
+                        artist: 'Donna Summer',
+                        title: 'I Feel Love'
                     }
                 ]
             },
@@ -251,53 +251,53 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Which movie in 1989 did Prince sang for?',
-                        reply: 'Batman'
+                        query: 'What\'s the term used in ballroom culture, which the LGBT brought back to life as a slang term which means to gather as a group for the purpose of gossip and chit chat?',
+                        reply: 'Kiki'
                     },
                     {
                         index: 2,
-                        query: 'In 15th centruy, smallpox was called smallpox to distinguish it from which other disease?',
-                        reply: 'Syphilis'
+                        query: 'Dog\'s have these muscles, Laom and Raol, which are missing in the wolves, where are they located?',
+                        reply: 'Eyes'
                     },
                     {
                         index: 3,
-                        query: 'Who founded the Berliner Ensemble in 1949?',
-                        reply: 'Helene Weigel and her husband, Bertolt Brecht'
+                        query: 'What\'s the currency of Laos?',
+                        reply: 'Kip'
                     },
                     {
                         index: 4,
-                        query: 'Which country has the highest female percentage in their parliament? (+1 point for top 3 countries)',
-                        reply: 'Rwanda, Cuba, Nicaragua '
+                        query: 'What\'s the first artificial sattelite called?',
+                        reply: 'Sputnik I'
                     },
                     {
                         index: 5,
-                        query: 'In which country, was the largest TRex skeleton found?',
-                        reply: 'Canada'
+                        query: 'Which artist has the name Alejandra Ghersi Rodriguez (hint: born with the name Alejandro)?',
+                        reply: 'Arca'
                     },
                     {
                         index: 6,
-                        query: 'Which artist made "The Dinner Party" art comprising of a banquet, arranged on a triangular table with total 39 place settings each for an important women in history?',
-                        reply: 'Judy Chicago'
+                        query: 'What are the common opening words of Star Wars movies?',
+                        reply: 'A long time ago in a galaxy far, far away ...'
                     },
                     {
                         index: 7,
-                        query: 'Name 2 of the 5 popular tags used in Grindr in 2023? (Grindr app each year releases intereting facts and tags are profile indications like twink, bear etc)',
-                        reply: 'Hung, Trans, bb, dom, feet'
+                        query: 'What\'s the fastest time for 100km worlds men\'s marathon? +-10mins',
+                        reply: '6 hours 5 minutes 35 seconds'
                     },
                     {
                         index: 8,
-                        query: 'There\'s a capital in the southern hemisphere, whose english translation means "meeting place", and local people are called Ngambri and speak language Ngunnawal. Which city is this?',
-                        reply: 'Canberra'
+                        query: 'Erythrophobia is the fear of what? (hint: person with this fear fetured in Greys Anatomy to have it removed)',
+                        reply: 'Blush'
                     },
                     {
                         index: 9,
-                        query: 'What\'s the first commandment? A vague idea is fine.',
-                        reply: 'You shall have no other gods before me'
+                        query: 'Which show has the longest running queer character?',
+                        reply: '(i) Callie Torres in Grey\'s Anatomy (ii) [Also accepted] Smithers in Simpsons'
                     },
                     {
                         index: 10,
-                        query: 'Who created the small animations in Monty Python?',
-                        reply: 'Terry Gilliam'
+                        query: 'Which is the largest religious monument in the world?',
+                        reply: 'Angkor Wat'
                     }
                 ]
             }
