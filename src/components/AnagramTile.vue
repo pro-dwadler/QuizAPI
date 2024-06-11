@@ -1,12 +1,16 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 const props = defineProps(['item', 'showAnswer'])
 const characters = props.item.query.toLowerCase().split('').filter(ch => ch != ' ')
 const disabled = ref(Array(characters.length).fill(false))
 const stack = ref([])
 const btnRefs = ref([])
+const yourAnswerArr = ref([])
+const yourAnswer = computed(() => {
+    return yourAnswerArr.value.join('');
+})
 function addSpace() {
-    props.item.yourAnswer = (props.item.yourAnswer || '') + ' ';
+    yourAnswerArr.value.push(' ')
 }
 
 onMounted(() => {
@@ -14,26 +18,25 @@ onMounted(() => {
 })
 
 function reset() {
-    props.item.yourAnswer = "";
+    yourAnswerArr.value.length = 0;
     for (let i = 0; i < characters.length; i++) disabled.value[i] = false
     stack.value = []
 }
 
 function addChar(ch, i) {
-    props.item.yourAnswer = (props.item.yourAnswer || '') + ch;
+    yourAnswerArr.value.push(ch)
     disabled.value[i] = true
     stack.value.push(i)
 }
 
 function back() {
-    const str = props.item.yourAnswer
-    if (str && str.length > 0) {
-        const lastChar = str.length - 1
-        if (str.charAt(lastChar) !== ' ') {
+    if (yourAnswerArr.value.length > 0) {
+        const lastChar = yourAnswerArr.value.length - 1
+        if (yourAnswerArr.value[lastChar] !== ' ') {
             const i = stack.value.pop()
             disabled.value[i] = false
         }
-        props.item.yourAnswer = str.substring(0, lastChar)
+        yourAnswerArr.value.pop()
     }
 }
 </script>
@@ -66,7 +69,7 @@ function back() {
                     </v-row>
                 </v-card>
 
-                <v-text-field class="mt-6 underlined" label="Your Answer" v-model="item.yourAnswer" variant="outlined"
+                <v-text-field class="mt-6 underlined" label="Your Answer" v-model="yourAnswer" variant="outlined"
                     readonly />
                 <v-text-field v-if="showAnswer" label="Correct Answer" v-model="item.reply" variant="outlined"
                     readonly />
