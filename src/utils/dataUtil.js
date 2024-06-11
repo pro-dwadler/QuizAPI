@@ -182,7 +182,7 @@ export async function getLastQuiz() {
             },
             {
                 type: 'MUSIC',
-                theme: 'No Theme. All songs are LGBTQ icons. And music only played for one second (for the last one maybe 10 sec)',
+                theme: 'No Theme. All songs are LGBTQ anthems. And music only played for one second (for the last one maybe 10 sec)',
                 queries: [
                     {
                         index: 1,

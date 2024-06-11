@@ -51,10 +51,10 @@ function back() {
                 <v-card class="pa-2" elevation="10" rounded color="#ffd3c3">
                     <v-row no-gutters>
                         <v-col>
-                            <v-btn ref="btnRefs" v-for="(ch, ind) in characters" :key="ind" density="compact"
-                                :class="{ 'ma-1': true, crossed: disabled[ind] }" color="#fffcab"
-                                @click="addChar(ch, ind)" :disabled="disabled[ind]">
-                                {{ ch }}
+                            <v-btn ref="btnRefs" v-for="(ch, ind) in characters" :key="ind"
+                                :class="{ 'ma-1': true, crossed: disabled[ind], 'dm-serif-display-regular': true}" color="#fffcab"
+                                @click="addChar(ch, ind)" :disabled="disabled[ind]" >
+                                <div class="">{{ ch }}</div>
                             </v-btn>
                             <v-btn density="compact" class="ma-1" color="#a0fffd" icon="mdi-keyboard-backspace"
                                 @click="back()"></v-btn>
@@ -83,5 +83,14 @@ function back() {
 
 .underlined {
     text-decoration-line: underline;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
 }
 </style>
