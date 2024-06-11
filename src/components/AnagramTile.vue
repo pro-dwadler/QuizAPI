@@ -55,7 +55,7 @@ function back() {
                     <v-row no-gutters>
                         <v-col>
                             <v-btn ref="btnRefs" v-for="(ch, ind) in characters" :key="ind"
-                                :class="{ 'ma-1': true, crossed: disabled[ind], 'dm-serif-display-regular': true}" color="#fffcab"
+                                :class="{ 'ma-1': true, crossed: disabled[ind], 'square': true}" color="#fffcab"
                                 @click="addChar(ch, ind)" :disabled="disabled[ind]" >
                                 <div class="">{{ ch }}</div>
                             </v-btn>
@@ -88,12 +88,10 @@ function back() {
     text-decoration-line: underline;
 }
 
-.dm-serif-display-regular {
-  font-family: "DM Serif Display", serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 30px;
+.square {
   width: 50px;
   height: 50px;
+  font-size: 30px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 </style>
