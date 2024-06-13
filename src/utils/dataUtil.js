@@ -120,7 +120,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 10,
-                        query: 'When was the first IPhone released? +-1',
+                        query: 'When was the first IPhone released? +-1 year',
                         reply: '2007'
                     }
                 ]
@@ -130,7 +130,7 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Fill in the blanks, Lana Del Rey\'s album is called \'Did you know there\'s a tunner under _____ _____\' ?',
+                        query: 'Fill in the blanks, Lana Del Rey\'s album is called \'Did you know there\'s a tunnel under _____ _____\' ?',
                         reply: 'Ocean Blvd'
                     },
                     {
@@ -150,7 +150,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 5,
-                        query: 'Name song and the artist: Blue as the sky, sunburnt and lonely; Sipping tea in a bar by the roadside; Don\'t you let those other boys fool you; Got to love that afro hairdo?',
+                        query: 'Name the song and the artist: Blue as the sky, sunburnt and lonely; Sipping tea in a bar by the roadside; Don\'t you let those other boys fool you; Got to love that afro hairdo?',
                         reply: 'Put Your Records On by Corinne Bailey Rae'
                     },
                     {
@@ -170,7 +170,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 9,
-                        query: 'Which poison does apple seed contain?',
+                        query: 'What poison does apple seed contain?',
                         reply: 'cyanide'
                     },
                     {
