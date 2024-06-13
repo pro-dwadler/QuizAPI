@@ -1,5 +1,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
+import SvgIcon from '@jamescoyle/vue-icon';
+import { mdiKeyboardBackspace, mdiKeyboardSpace,  mdiCached} from '@mdi/js'
 const props = defineProps(['item', 'showAnswer'])
 const characters = props.item.query.toLowerCase().split('').filter(ch => ch != ' ')
 const disabled = ref(Array(characters.length).fill(false))
@@ -24,9 +26,11 @@ function reset() {
 }
 
 function addChar(ch, i) {
+    if(!disabled.value[i]) {
     yourAnswerArr.value.push(ch)
     disabled.value[i] = true
     stack.value.push(i)
+    }
 }
 
 function back() {
@@ -54,17 +58,26 @@ function back() {
                 <v-card class="pa-2" elevation="10" rounded color="#ffd3c3">
                     <v-row no-gutters>
                         <v-col>
-                            <v-btn ref="btnRefs" v-for="(ch, ind) in characters" :key="ind"
-                                :class="{ 'ma-1': true, crossed: disabled[ind], 'square': true}" color="#fffcab"
-                                @click="addChar(ch, ind)" :disabled="disabled[ind]" >
-                                <div class="">{{ ch }}</div>
-                            </v-btn>
-                            <v-btn density="compact" class="ma-1" color="#a0fffd" icon="mdi-keyboard-backspace"
+                            <div ref="btnRefs" v-for="(ch, ind) in characters" :key="ind"
+                                :class="{ 'ma-1': true, crossed: disabled[ind], square: true, 'border-lg': true, 'rounded-lg': true }" color="#fffcab"
+                                @click="addChar(ch, ind)" :disabled="disabled[ind]">{{ ch  }}</div>
+                            
+                            
+                            <div class="square border-lg rounded-lg ma-1" @click="back()">
+                                <svg-icon type="mdi" :path="mdiKeyboardBackspace"/>
+                            </div>
+                            <div class="square border-lg rounded-lg ma-1" @click="addSpace()">
+                                <svg-icon type="mdi" :path="mdiKeyboardSpace"/>
+                            </div>
+                            <div class="square border-lg rounded-lg ma-1" @click="reset()">
+                                <svg-icon type="mdi" :path="mdiCached"/>
+                            </div>
+                            <!-- <v-btn density="compact" class="ma-1" color="#a0fffd" icon="mdi-keyboard-backspace"
                                 @click="back()"></v-btn>
                             <v-btn density="compact" class="ma-1" color="#a0fffd" icon="mdi-keyboard-space"
                                 @click="addSpace()"></v-btn>
                             <v-btn density="compact" class="ma-1" color="#a0fffd" icon="mdi-cached"
-                                @click="reset()"></v-btn>
+                                @click="reset()"></v-btn> -->
                         </v-col>
                     </v-row>
                 </v-card>
@@ -82,13 +95,21 @@ function back() {
 <style scoped>
 .crossed {
     text-decoration-line: line-through;
+    background-color: darkgrey;
 }
 
 .underlined {
     text-decoration-line: underline;
 }
 
+.square:active {
+    background-color: darkgrey;
+}
+
 .square {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
   width: 50px;
   height: 50px;
   font-size: 30px;
