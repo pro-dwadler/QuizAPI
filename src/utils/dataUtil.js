@@ -80,7 +80,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 2,
-                        query: 'Which is the internet(meme) famour dog breed present in Dogecoin logo ?',
+                        query: 'Which is the internet(meme) famous dog breed present in Dogecoin logo?',
                         reply: 'Shiba Inu'
                     },
                     {
@@ -110,7 +110,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 8,
-                        query: 'The hip-hop back, OutKast, in the 2000s apologized to which lady?',
+                        query: 'The hip-hop band, OutKast, in the 2000s apologized to which lady?',
                         reply: 'Ms. Jackson'
                     },
                     {
@@ -160,7 +160,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 7,
-                        query: 'Where is the Buccinator muscle locatedd? Be specific, not leg but shin',
+                        query: 'Where is the Buccinator muscle located? Be specific, not leg but shin',
                         reply: 'Cheeks'
                     },
                     {
