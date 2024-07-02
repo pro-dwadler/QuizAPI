@@ -11,62 +11,62 @@ export function formatDate(date) {
 
 export async function getLastQuiz() {
     return {
-        date: formatDate("2024-06-10"),
+        date: formatDate("2024-07-01"),
         modules: [
 
             {
                 type: 'ANAGRAM',
-                theme: 'Queer Musicians',
+                theme: 'Reed Instruments',
                 queries: [
                     {
                         index: 1,
-                        query: 'Cider Furry Meed',
-                        reply: 'Freddie Mercury'
+                        query: 'Acrobatics Lanterns',
+                        reply: 'Contrabass Clarinet'
                     },
                     {
                         index: 2,
-                        query: 'Aloe Jenn Male',
-                        reply: 'Janelle Monae'
+                        query: 'Neon Girl Shh',
+                        reply: 'English Horn'
                     },
                     {
                         index: 3,
-                        query: 'Clatterer Theory',
-                        reply: 'Tyler the Creator'
+                        query: 'Maniac Mohair Crotch',
+                        reply: 'Chromatic Harmonica'
                     },
                     {
                         index: 4,
-                        query: 'Lucy Misery',
-                        reply: 'Miley Cyrus'
+                        query: 'Acid Mole',
+                        reply: 'Melodica'
                     },
                     {
                         index: 5,
-                        query: 'Emu Furs Peeing',
-                        reply: 'Perfume Genius'
+                        query: 'Boor Weenie',
+                        reply: 'Wiener Oboe'
                     },
                     {
                         index: 6,
-                        query: 'A Embroiling Jostler',
-                        reply: 'Billie Joe Armstrong'
+                        query: 'Orange Pip',
+                        reply: 'Pipe Organ'
                     },
                     {
                         index: 7,
-                        query: 'Hero Jolt Sinn',
-                        reply: 'Sir Elton John '
+                        query: 'Compote Culprit',
+                        reply: 'Piccolo Trumpet'
                     },
                     {
                         index: 8,
-                        query: 'Ribber Sheepdog',
-                        reply: 'Phoebe Bridgers'
+                        query: 'Hornets Hop',
+                        reply: 'Rothphones'
                     },
                     {
                         index: 9,
-                        query: 'Hangnails Omelette',
-                        reply: 'Megan Thee Stallion'
+                        query: 'Hasten Poor Oxen',
+                        reply: 'Tenor Saxophone'
                     },
                     {
                         index: 10,
-                        query: 'A Moral Pool',
-                        reply: 'Omar Apollo'
+                        query: 'Racoons Batons',
+                        reply: 'Contrabassoon'
                     }
                 ]
             },
@@ -75,53 +75,53 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Which element has the chemical symbol Fe?',
-                        reply: 'Iron'
+                        query: 'How many syllables in a haiku?',
+                        reply: '17 = 3 lines of (5, 7, 5) syllables'
                     },
                     {
                         index: 2,
-                        query: 'Which is the longest river?',
-                        reply: 'Nile'
+                        query: 'Which is the internet(meme) famour dog breed present in Dogecoin logo ?',
+                        reply: 'Shiba Inu'
                     },
                     {
                         index: 3,
-                        query: 'What is the second most spoken language in Spain?',
-                        reply: 'Catalan'
+                        query: 'Which two teams won their matches in UEFA Euro football championship on Saturday(29.06.24)?',
+                        reply: 'Germany and Switzerland'
                     },
                     {
                         index: 4,
-                        query: '[Riddle] How does a non-binary person kill someone?',
-                        reply: 'They-Slash-Them (or another accepted one, by slaying)'
+                        query: 'Which is the longest mountain range in South America?',
+                        reply: 'Andes'
                     },
                     {
                         index: 5,
-                        query: 'In Greek mythology, who is the queen of underworld and wife of Hades?',
-                        reply: 'Persephone'
+                        query: 'What are the two ingredients in the Bellini cocktail, created between 1930s and 1940s in Venice Italy?',
+                        reply: 'Peach and Prosecco'
                     },
                     {
                         index: 6,
-                        query: 'What is the fictional city of Batman?',
-                        reply: 'Gotham city'
+                        query: 'The TV show, Sex And The City, nearly tripled the sales of which shoe brand?',
+                        reply: 'Manolo Blahnik'
                     },
                     {
                         index: 7,
-                        query: 'In Indian cooking, what is the mixture of ground spices called?',
-                        reply: 'Masala'
+                        query: 'Which number comes first alphabetically?',
+                        reply: 'Eight'
                     },
                     {
                         index: 8,
-                        query: 'In the Queer Rainbow flag, what color does red represent?',
-                        reply: 'Life'
+                        query: 'The hip-hop back, OutKast, in the 2000s apologized to which lady?',
+                        reply: 'Ms. Jackson'
                     },
                     {
                         index: 9,
-                        query: 'In the US Office version, which city do they live in?',
-                        reply: 'Scranton'
+                        query: 'The 1981 film, Lion of the Desert, about the war between Italy and Libya, was funded in past by which world leader/party?',
+                        reply: 'Gaddafi'
                     },
                     {
                         index: 10,
-                        query: 'When was the first IPhone released? +-1',
-                        reply: '2007'
+                        query: 'What is the first name of the painter Cézanne?',
+                        reply: 'Paul'
                     }
                 ]
             },
@@ -130,119 +130,119 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Fill in the blanks, Lana Del Rey\'s album is called \'Did you know there\'s a tunner under _____ _____\' ?',
-                        reply: 'Ocean Blvd'
+                        query: 'Who are the three headliners of the Pyramid stage in the Glastonbury festival?',
+                        reply: 'Dua Lipa, Coldplay and SZA'
                     },
                     {
                         index: 2,
-                        query: 'Which city did Napoleon got exiled the second time?',
-                        reply: 'St Helena'
+                        query: 'What percentage of DNA matches between a human and a chimpanzee (+-5%)?',
+                        reply: '98.8%'
                     },
                     {
                         index: 3,
-                        query: 'What does the following 3 slang refer to (i) Shove Devil (ii) Shaft of delight (iii) Belly Ticker ?',
-                        reply: 'Penises'
+                        query: 'The ancient city of Babylon, is located in which current world country?',
+                        reply: 'Iraq'
                     },
                     {
                         index: 4,
-                        query: 'What\'s the difference between a coffin and a casket?',
-                        reply: 'Coffin gets wider at shoulders and taper thinner at feet while casket is rectangular'
+                        query: 'Who was the first trans women on the Time magazine (happened in 2014)?',
+                        reply: 'Laverne Cox'
                     },
                     {
                         index: 5,
-                        query: 'Name song and the artist: Blue as the sky, sunburnt and lonely; Sipping tea in a bar by the roadside; Don\'t you let those other boys fool you; Got to love that afro hairdo?',
-                        reply: 'Put Your Records On by Corinne Bailey Rae'
+                        query: 'What sequence is this: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34?',
+                        reply: 'Fibonacci Sequence'
                     },
                     {
                         index: 6,
-                        query: 'Who is the first female president of Mexico?',
-                        reply: 'Claudia Sheinbaum'
+                        query: 'How many players are in one ice hockey team?',
+                        reply: 'Six'
                     },
                     {
                         index: 7,
-                        query: 'What does FLINTA stands for?',
-                        reply: 'Female, Lesbian, Intersex, Trans and Agender'
+                        query: 'Where is the Buccinator muscle locatedd? Be specific, not leg but shin',
+                        reply: 'Cheeks'
                     },
                     {
                         index: 8,
-                        query: 'Which accoding to MTV\'s is the most controversial music video?',
-                        reply: 'Like a Prayer by Madonna'
+                        query: 'What\'s happening in this video? https://www.youtube.com/watch?v=J---aiyznGQ',
+                        reply: 'Keyboard cat'
                     },
                     {
                         index: 9,
-                        query: 'Which poison does apple seed contain?',
-                        reply: 'cyanide'
+                        query: 'Agent Provocateur, is the retailer of what genre of item?',
+                        reply: 'Lingerie'
                     },
                     {
                         index: 10,
-                        query: 'What is the solid remain of grapes, olives, or other fruit called after pressing for juice or oil?',
-                        reply: 'Pomace'
+                        query: 'The asteroid belt is between which two planets?',
+                        reply: 'Mars and Jupiter'
                     }
                 ]
             },
             {
                 type: 'MUSIC',
-                theme: 'No Theme. All songs are LGBTQ anthems. And music only played for one second (for the last one maybe 10 sec)',
+                theme: 'Elements (earth, wind, fire, water)',
                 queries: [
                     {
                         index: 1,
-                        query: 'https://www.youtube.com/watch?v=gD6cPE2BHic',
-                        artist: 'Sylvester',
-                        title: 'You Make Me Feel'
+                        query: 'https://www.youtube.com/watch?v=Lrle0x_DHBM',
+                        title: 'Let\'s Groove',
+                        artist: 'Earth, Wind & Fire'
                     },
                     {
                         index: 2,
-                        query: 'https://www.youtube.com/watch?v=LPn0KFlbqX8',
-                        artist: 'Cyndi Lauper',
-                        title: 'True Colors'
+                        query: 'https://www.youtube.com/watch?v=zQX2q6WCrbE',
+                        artist: 'Crystal Waters',
+                        title: '100% Pure Love'
                     },
                     {
                         index: 3,
-                        query: 'https://www.youtube.com/watch?v=GuJQSAiODqI',
-                        artist: 'Madonna',
-                        title: 'Vogue'
+                        query: 'https://www.youtube.com/watch?v=haW_ruZ_Be8',
+                        artist: 'Franz Ferdinand',
+                        title: 'This Fire'
                     },
                     {
                         index: 4,
-                        query: 'https://www.youtube.com/watch?v=N3RB_56WziA',
-                        artist: 'RuPaul',
-                        title: 'Cover Girl'
+                        query: 'https://www.youtube.com/watch?v=8WEtxJ4-sh4',
+                        artist: 'TLC',
+                        title: 'Waterfalls'
                     },
                     {
                         index: 5,
-                        query: 'https://www.youtube.com/watch?v=6dYWe1c3OyU',
-                        artist: 'Gloria Gaynor',
-                        title: 'I Will Survive'
+                        query: 'https://www.youtube.com/watch?v=1xLUO4qXEyw',
+                        artist: 'Nelly',
+                        title: 'Air Force One'
                     },
                     {
                         index: 6,
-                        query: 'https://www.youtube.com/watch?v=QGJuMBdaqIw',
-                        artist: 'Katy Perry',
-                        title: 'Firework'
+                        query: 'https://www.youtube.com/watch?v=Mk_GmhD053E',
+                        title: 'Santa Baby',
+                        artist: 'Eartha Kitt'
                     },
                     {
                         index: 7,
-                        query: 'https://www.youtube.com/watch?v=uo5o_R8txUo',
-                        artist: 'Village People',
-                        title: 'Macho Man'
+                        query: 'https://www.youtube.com/watch?v=IQBC5URoF0s',
+                        artist: 'Fela Kuti',
+                        title: 'Water no get enemy'
                     },
                     {
                         index: 8,
-                        query: 'https://www.youtube.com/watch?v=qbs3aAxha70',
-                        artist: 'Barbra Streisand',
-                        title: 'Don\'t Rain On My Parade'
+                        query: 'https://www.youtube.com/watch?v=wmin5WkOuPw',
+                        artist: 'The Prodigy',
+                        title: 'Firestarter'
                     },
                     {
                         index: 9,
-                        query: 'https://www.youtube.com/watch?v=AJWtLf4-WWs',
-                        artist: 'Britney Spears',
-                        title: 'Stronger'
+                        query: 'https://www.youtube.com/watch?v=JWdZEumNRmI',
+                        artist: 'Air Supply',
+                        title: 'All Out Of Love'
                     },
                     {
                         index: 10,
-                        query: 'https://www.youtube.com/watch?v=yEbaeLv-aOo',
-                        artist: 'Donna Summer',
-                        title: 'I Feel Love'
+                        query: 'https://www.youtube.com/watch?v=j2F4INQFjEI',
+                        artist: 'Belinda',
+                        title: 'Heaven Is A Place On Earth'
                     }
                 ]
             },
@@ -251,53 +251,53 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'What\'s the term used in ballroom culture, which the LGBT brought back to life as a slang term which means to gather as a group for the purpose of gossip and chit chat?',
-                        reply: 'Kiki'
+                        query: 'Where does the phrase \'dog days of summer\' comes from? It refers to the hottest days of the summer/year',
+                        reply: 'Rise of the Sirius star system'
                     },
                     {
                         index: 2,
-                        query: 'Dog\'s have these muscles, Laom and Raol, which are missing in the wolves, where are they located?',
-                        reply: 'Eyes'
+                        query: 'China has a type of work culture called 996. What do these numbers represent?',
+                        reply: '9:00 am to 9:00 pm, 6 days per week'
                     },
                     {
                         index: 3,
-                        query: 'What\'s the currency of Laos?',
-                        reply: 'Kip'
+                        query: 'Espophagus/Oesophagus muscle, part of the digestive system connecting the pharynx to the stomach, moves in a wave like manner. What is this movement called?',
+                        reply: 'Peristaltic movement'
                     },
                     {
                         index: 4,
-                        query: 'What\'s the first artificial sattelite called?',
-                        reply: 'Sputnik I'
+                        query: 'All gemstones are evaluted using a system called 4 Cs. What do they stand for?',
+                        reply: 'Cut, Color, Clarity and Carat'
                     },
                     {
                         index: 5,
-                        query: 'Which artist has the name Alejandra Ghersi Rodriguez (hint: born with the name Alejandro)?',
-                        reply: 'Arca'
+                        query: 'What is the oldest botanical garden in Germany? This garden moved around within the same city and datae back to 1542. It was then destroyed in the Thirty Years\' War and moved in 1648. Moved again in 1807. Extended in 1895. Entirely destroyed in WW-II and restored in 1954. After reunification, was completely renovated and now stands in the same place',
+                        reply: 'Leipzig'
                     },
                     {
                         index: 6,
-                        query: 'What are the common opening words of Star Wars movies?',
-                        reply: 'A long time ago in a galaxy far, far away ...'
+                        query: 'The line \'hell is other people\' was part of which Sartre play?',
+                        reply: 'No Exit'
                     },
                     {
                         index: 7,
-                        query: 'What\'s the fastest time for 100km worlds men\'s marathon? +-10mins',
-                        reply: '6 hours 5 minutes 35 seconds'
+                        query: 'The First lady Dr. Jill Biden, during the last Friday\'s(28.06.24) rally wore custom dress by the American designer Christian Siriano. What was unique about this dress?',
+                        reply: 'Vote printed all over the dress'
                     },
                     {
                         index: 8,
-                        query: 'Erythrophobia is the fear of what? (hint: person with this fear fetured in Greys Anatomy to have it removed)',
-                        reply: 'Blush'
+                        query: 'The flag of China has one big star and four small yellow stars on a red background. What do these stars represent?',
+                        reply: 'The big star stands for the communist government, and the four small stars stand for the workers, peasants, middle-class citizens and soldiers'
                     },
                     {
                         index: 9,
-                        query: 'Which show has the longest running queer character?',
-                        reply: '(i) Callie Torres in Grey\'s Anatomy (ii) [Also accepted] Smithers in Simpsons'
+                        query: 'What does Nappe mean in the world of cooking?',
+                        reply: 'Nappe is a French term describing the consistency of a sauce that will coat the back of a spoon'
                     },
                     {
                         index: 10,
-                        query: 'Which is the largest religious monument in the world?',
-                        reply: 'Angkor Wat'
+                        query: 'What sea is San Sebastian on?',
+                        reply: 'Cantabrian Sea'
                     }
                 ]
             }

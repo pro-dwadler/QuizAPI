@@ -21,10 +21,6 @@ function test(url) {
             <p v-if="showAnswer">Hide Answers</p>
         </v-btn>
 
-        <v-sheet elevation="5" rounded class="mb-5 pa-5">
-            <v-textarea label="Theme" v-model="quiz.theme" variant="outlined" readonly rows="2" auto-grow/>
-        </v-sheet>
-
         <v-sheet v-for="item in quiz.queries" :key="item" elevation="5" rounded class="mb-5 pa-5">
 
             <v-text-field @click:append="test(item.query)" append-icon="mdi-open-in-new" :label="'#' + item.index"
@@ -37,6 +33,12 @@ function test(url) {
                 :model-value="'Artist:\n' + item.artist + '\n\n' + 'Title:\n' + item.title" rows="2" auto-grow />
         </v-sheet>
 
+        <v-sheet elevation="5" rounded class="mb-5 pa-5">
+            <v-text-field label="Theme" variant="outlined" readonly model-value="What's the theme of these songs?" />
+            <v-text-field v-if="!showAnswer" label="Your Answer" v-model="quiz.yourTheme" variant="outlined" />
+            <v-text-field v-if="showAnswer" label="Your Answer" v-model="quiz.yourTheme" variant="outlined" readonly />
+            <v-text-field v-if="showAnswer" label="Correct Answer" v-model="quiz.theme" variant="outlined" readonly />
+        </v-sheet>
 
     </v-col>
 
