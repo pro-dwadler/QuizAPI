@@ -131,7 +131,7 @@ export async function getLastQuiz() {
                     {
                         index: 1,
                         query: 'Who are the three headliners of the Pyramid stage in the Glastonbury festival?',
-                        reply: 'Dua Lipa, Coldplay and SZA'\
+                        reply: 'Dua Lipa, Coldplay and SZA'
                     },
                     {
                         index: 2,
