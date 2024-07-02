@@ -130,7 +130,7 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Who are the three headliners of the Pyramid stage in the Glastonbury festival?',
+                        query: 'Who were the three headliners of the Pyramid stage in the Glastonbury festival this year?',
                         reply: 'Dua Lipa, Coldplay and SZA'
                     },
                     {
@@ -271,7 +271,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 5,
-                        query: 'What is the oldest botanical garden in Germany? This garden moved around within the same city and datae back to 1542. It was then destroyed in the Thirty Years\' War and moved in 1648. Moved again in 1807. Extended in 1895. Entirely destroyed in WW-II and restored in 1954. After reunification, was completely renovated and now stands in the same place',
+                        query: 'What is the oldest botanical garden in Germany? This garden moved around within the same city and dates back to 1542. It was then destroyed in the Thirty Years\' War and moved in 1648. Moved again in 1807. Extended in 1895. Entirely destroyed in WW-II and restored in 1954. After reunification, was completely renovated and now stands in the same place',
                         reply: 'Leipzig'
                     },
                     {
