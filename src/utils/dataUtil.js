@@ -16,7 +16,7 @@ export async function getLastQuiz() {
 
             {
                 type: 'ANAGRAM',
-                theme: 'One hit wonder songs of 2000s',
+                theme: 'One hit wonder songs of the 2000s',
                 queries: [
                     {
                         index: 1,
@@ -80,7 +80,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 2,
-                        query: 'In Gossip Girl, which part of Manhattan is home to majority of characters?',
+                        query: 'In Gossip Girl, which part of Manhattan is home to the majority of characters?',
                         reply: 'The Upper East Side'
                     },
                     {
@@ -90,12 +90,12 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 4,
-                        query: 'Solve the riddle: What occurs, once in a minute, twice in a moment and never in a thousand years?',
+                        query: 'Solve the riddle: What occurs, once in a minute, twice in a moment, never in a thousand years?',
                         reply: 'M\'s in the word minute, moment and thousand years'
                     },
                     {
                         index: 5,
-                        query: 'What is the latin word for Goddess?',
+                        query: 'What is the Latin word for Goddess?',
                         reply: 'Diva'
                     },
                     {
@@ -150,7 +150,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 5,
-                        query: 'What song is this lyrics from? Inside, we both know what\'s been going on. We know the game and we\'re gonna play it, and if you ask me how I\'m feeling. Don\'t tell me you\'re too blind to see',
+                        query: 'What song are these lyrics from? Inside, we both know what\'s been going on. We know the game and we\'re gonna play it, and if you ask me how I\'m feeling. Don\'t tell me you\'re too blind to see',
                         reply: 'Never Gonna Give You Up'
                     },
                     {
@@ -175,7 +175,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 10,
-                        query: 'According to Greek mythology, how was the Milky Way formed? (Includes Zeus, Hera and Heracles)',
+                        query: 'According to Greek mythology, how was the Milky Way formed? (Includes Zeus, Hera, Heracles)',
                         reply: 'Any answer related to Hera\'s breast milk is valid. Long story: Zeus decided to let the infant Heracles suckle on his wife Hera\'s milk when she was asleep, an act which would endow the baby with godlike qualities. When Hera woke up and realized that she was breastfeeding an unknown infant, she pushed him away and the spurting milk became the Milky Way'
                     }
                 ]
@@ -196,7 +196,7 @@ export async function getLastQuiz() {
                         artist: 'Blood Orange',
                         title: 'Champagne Coast'
                     },
-                    { 
+                    {
                         index: 3,
                         query: 'https://www.youtube.com/watch?v=2BTVsWPx84U',
                         artist: 'Mitski',
@@ -205,7 +205,7 @@ export async function getLastQuiz() {
                     {
                         index: 4,
                         query: 'https://www.youtube.com/watch?v=3wk7C64kaP4',
-                        artist: 'The Smashing Pumkins',
+                        artist: 'The Smashing Pumpkins',
                         title: 'Zero'
                     },
                     {
@@ -251,7 +251,7 @@ export async function getLastQuiz() {
                 queries: [
                     {
                         index: 1,
-                        query: 'Where is the headquaters of CIA?',
+                        query: 'Where is the headquarters of the CIA?',
                         reply: 'Langley'
                     },
                     {
@@ -261,7 +261,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 3,
-                        query: 'What does these words have in common? Dreamcatcher, Red Velvet, Orange Caramel, After School',
+                        query: 'What do these words have in common? Dreamcatcher, Red Velvet, Orange Caramel, After School',
                         reply: 'K-pop groups'
                     },
                     {
@@ -281,7 +281,7 @@ export async function getLastQuiz() {
                     },
                     {
                         index: 7,
-                        query: 'According to Forbes 2023, who is the world\'s most powerful women?',
+                        query: 'According to Forbes 2023, who is the world\'s most powerful woman?',
                         reply: 'Ursula von der Leyen'
                     },
                     {
