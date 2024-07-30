@@ -1,9 +1,9 @@
 export const data = {
     "date": {
       "day": "Monday",
-      "date": "July 29",
+      "date": "July 22",
       "year": "2024",
-      "d": "2024-07-29"
+      "d": "2024-07-22"
     },
     "description": null,
     "modules": [
@@ -12,7 +12,7 @@ export const data = {
           "type": {
             "name": "Anagram"
           },
-          "description": "Operas (English Titles)"
+          "description": "90s Rom Coms"
         },
         "questions": [
           {
@@ -21,10 +21,10 @@ export const data = {
               "index": 0
             },
             "question": {
-              "text": "I Forage For A Tiger Ham (Mozart)"
+              "text": "Odd Hungry Ago"
             },
             "answer": {
-              "text": "The Marriage of Figaro"
+              "text": "Groundhog Day"
             }
           },
           {
@@ -33,10 +33,10 @@ export const data = {
               "index": 1
             },
             "question": {
-              "text": "Believable Frothers (Rossini)"
+              "text": "A Newfoundland Fireguards"
             },
             "answer": {
-              "text": "The Barber of Seville"
+              "text": "Four Weddings and a Funeral"
             }
           },
           {
@@ -45,10 +45,10 @@ export const data = {
               "index": 2
             },
             "question": {
-              "text": "Fat Legume Itch"
+              "text": "Aretha's Mutterings Homeboy"
             },
             "answer": {
-              "text": "The Magic Flute"
+              "text": "There's Something About Mary"
             }
           },
           {
@@ -57,10 +57,10 @@ export const data = {
               "index": 3
             },
             "question": {
-              "text": "Translations Died (Wagner)"
+              "text": "Cajun Evolves Shooter"
             },
             "answer": {
-              "text": "Tristan and Isolde"
+              "text": "Joe Versus the Volcano"
             }
           },
           {
@@ -69,10 +69,10 @@ export const data = {
               "index": 4
             },
             "question": {
-              "text": "Fabled Rat Tummy (Puccini)"
+              "text": "Europe Wheeling Wisely"
             },
             "answer": {
-              "text": "Madama Butterfly"
+              "text": "While You Were Sleeping"
             }
           },
           {
@@ -81,10 +81,10 @@ export const data = {
               "index": 5
             },
             "question": {
-              "text": "Keg Shapes Terrors (Stravinsky)"
+              "text": "Dresden Weighting"
             },
             "answer": {
-              "text": "The Rake\'s Progress"
+              "text": "The Wedding Singer"
             }
           },
           {
@@ -93,10 +93,10 @@ export const data = {
               "index": 6
             },
             "question": {
-              "text": "Voiding Anon (Mozart)"
+              "text": "Bernese Seven Kid"
             },
             "answer": {
-              "text": "Don Giovanni"
+              "text": "Never Been Kissed"
             }
           },
           {
@@ -105,10 +105,10 @@ export const data = {
               "index": 7
             },
             "question": {
-              "text": "Fetchingly Mad Hunt (Wagner)"
+              "text": "Beauty Hothouse Tainting"
             },
             "answer": {
-              "text": "The Flying Dutchman"
+              "text": "Ten things I hate about you"
             }
           },
           {
@@ -117,10 +117,10 @@ export const data = {
               "index": 8
             },
             "question": {
-              "text": "Tiger Loot (Verdi)"
+              "text": "hint Tolling"
             },
             "answer": {
-              "text": "Rigoletto"
+              "text": "Notting Hill"
             }
           },
           {
@@ -129,10 +129,10 @@ export const data = {
               "index": 9
             },
             "question": {
-              "text": "Spongy Breads (Gershwin)"
+              "text": "Jury Merge Air"
             },
             "answer": {
-              "text": "Porgy and Bess"
+              "text": "Jerry Maguire"
             }
           }
         ]
@@ -151,10 +151,10 @@ export const data = {
               "index": 0
             },
             "question": {
-              "text": "What's the only letter not appearing in any US state?"
+              "text": "What is the unit of electric potential (like volt) and electromotive force?"
             },
             "answer": {
-              "text": "Q"
+              "text": "Voltage/Volt"
             }
           },
           {
@@ -163,10 +163,10 @@ export const data = {
               "index": 1
             },
             "question": {
-              "text": "What\'s the Jewish New Year called?"
+              "text": "What was the nickname of Dr. Derek Shepherd in Grey's Anatomy?"
             },
             "answer": {
-              "text": "Rosh HaShanah"
+              "text": "McDreamy"
             }
           },
           {
@@ -175,10 +175,10 @@ export const data = {
               "index": 2
             },
             "question": {
-              "text": "What are the longest and shortest U-Bahn lines in Berlin?"
+              "text": "What alcohol is made from juniper berries?"
             },
             "answer": {
-              "text": "Longest is U7 and shortest is U4"
+              "text": "Gin"
             }
           },
           {
@@ -187,10 +187,10 @@ export const data = {
               "index": 3
             },
             "question": {
-              "text": "Who is the president of Germany?"
+              "text": "Solve the riddle: What is a five letter word that becomes shorter when you add two letters?"
             },
             "answer": {
-              "text": "Frank-Walter Steinmeier"
+              "text": "Short"
             }
           },
           {
@@ -199,10 +199,10 @@ export const data = {
               "index": 4
             },
             "question": {
-              "text": "What was Gin and Tonic invented for? Half a point for the ingredient that is common for treating illness"
+              "text": "Which band has the members: Mike Dirnt, Tré Cool, Billie Joe Armstrong?"
             },
             "answer": {
-              "text": "Invented to combat Malaria. Ingredient is quinine."
+              "text": "Green Day"
             }
           },
           {
@@ -211,10 +211,10 @@ export const data = {
               "index": 5
             },
             "question": {
-              "text": "How many wives did Henry the VIII had?"
+              "text": "Who is the first openly gay man in the United States to be elected to public office?"
             },
             "answer": {
-              "text": "Six"
+              "text": "Harvey Milk"
             }
           },
           {
@@ -223,10 +223,10 @@ export const data = {
               "index": 6
             },
             "question": {
-              "text": "Berlin celebrated it's pride parade last weekend. What does CSD stands for?"
+              "text": "What is the national animal of France?"
             },
             "answer": {
-              "text": "Christopher Street Day"
+              "text": "Rooster"
             }
           },
           {
@@ -235,10 +235,10 @@ export const data = {
               "index": 7
             },
             "question": {
-              "text": "How many small squares does a sudoku puzzle have?"  
+              "text": "Whose studio albums are these: Music Box, Emotions, Rainbow, Butterfly?"  
             },
             "answer": {
-              "text": "81"
+              "text": "Mariah Carey"
             }
           },
           {
@@ -247,10 +247,10 @@ export const data = {
               "index": 8
             },
             "question": {
-              "text": "What is the study of earthquakes called?"
+              "text": "What\'s the capital city of Latvia?"
             },
             "answer": {
-              "text": "Seismology"
+              "text": "Riga"
             }
           },
           {
@@ -259,10 +259,10 @@ export const data = {
               "index": 9
             },
             "question": {
-              "text": "Name any of the five French mother sauces."
+              "text": "What is the professional name of Marshall Mathers?"
             },
             "answer": {
-              "text": "Béchamel, Velouté, Espagnole, Hollandaise, and Tomato"
+              "text": "Eminem"
             }
           }
         ]
@@ -281,10 +281,10 @@ export const data = {
               "index": 0
             },
             "question": {
-              "text": "In the year 1850, which religious text did Mark Twain referred to as 'chlorofom in print'?"
+              "text": "In which year was the soviet union dissolved? Half more points for the correct date"
             },
             "answer": {
-              "text": "The Book of Mormon"
+              "text": "26 December 1991"
             }
           },
           {
@@ -293,10 +293,10 @@ export const data = {
               "index": 1
             },
             "question": {
-              "text": "What\'s the name given to a type of machine or contraption intentionally designed to perform a simple task in an indirect and overly complicated way?"
+              "text": "In which city are the next olympic games (2028) gonna be held in?"
             },
             "answer": {
-              "text": "Rube Goldberg Machine"
+              "text": "Los Angeles"
             }
           },
           {
@@ -305,10 +305,10 @@ export const data = {
               "index": 2
             },
             "question": {
-              "text": "What\'s the widely spoken language in Senegal?"
+              "text": "Which perfume brand do the following belongs to: Obsession, Euphoria, Eternity?"
             },
             "answer": {
-              "text": "Wolof"
+              "text": "Calvin Klein"
             }
           },
           {
@@ -317,10 +317,10 @@ export const data = {
               "index": 3
             },
             "question": {
-              "text": "In the Simpsons series, what\'s the favorite TV show of Selma and Patty?"    
+              "text": "Which animal is present in the EU residence permit?"
             },
             "answer": {
-              "text": "MacGyver"
+              "text": "Bull"
             }
           },
           {
@@ -329,10 +329,10 @@ export const data = {
               "index": 4
             },
             "question": {
-              "text": "Who is the youngest ever SNL host?"
+              "text": "What song are these lyrics from? When food is gone you are my daily meal. When friends are gone I know my saviour's love is real. You know it's real."
             },
             "answer": {
-              "text": "Drew Barrymore (at age 7, 1982)"
+              "text": "You've Got The Love by Florence + The Machine"
             }
           },
           {
@@ -341,10 +341,10 @@ export const data = {
               "index": 5
             },
             "question": {
-              "text": "Who is the official beer sponsor of Euro 2024?"
+              "text": "What are the low grassland called extending over Argentina, Uruguay and Brazil?"
             },
             "answer": {
-              "text": "Bitburger"
+              "text": "The Pampas"
             }
           },
           {
@@ -353,10 +353,10 @@ export const data = {
               "index": 6
             },
             "question": {
-              "text": "What are Subway staff called?"
+              "text": "What are 840 different types of entity present in Papua New Guinea?"
             },
             "answer": {
-              "text": "Sandwich Artists"
+              "text": "Languages"
             }
           },
           {
@@ -365,14 +365,11 @@ export const data = {
               "index": 7
             },
             "question": {
-              "text": "With 13,981 performances, which is the longest running boradway show?"
+              "text": "What do these things refer to: Butterfly, Wheelbarrow, Corkscrew?"
             },
             "answer": {
-              "text": "The Phantom of the Opera"
-            },
-            "hints": [
-              {"text": "opening date is January 26, 1988 and closing date is April 16, 2023"}
-            ]
+              "text": "Sex positions"
+            }
           },
           {
             "metadata": {
@@ -380,10 +377,10 @@ export const data = {
               "index": 8
             },
             "question": {
-              "text": "What is the new game in 2024 Olympic?"
+              "text": "What does the V sign represent?"
             },
             "answer": {
-              "text": "Breaking/Break Dancing"
+              "text": "Insult"
             }
           },
           {
@@ -392,10 +389,10 @@ export const data = {
               "index": 9
             },
             "question": {
-              "text": "What is the church of Flying Spaghetti Monster called?"
+              "text": "What is Russia's king called"
             },
             "answer": {
-              "text": "Pastafarian"
+              "text": "Tsar"
             }
           }
         ]
@@ -417,13 +414,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Björk",
-              "title": "Venus As A Boy",
-              "text": "Venus As A Boy by Björk"
+              "artist": "Lil Uzi x Young Thug",
+              "title": "20 Min Ski",
+              "text": "20 Min Ski by Lil Uzi x Young Thug"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=J1Rd7zrvW7k",
+                "link": "https://www.youtube.com/watch?v=HnmkFRm6Zrk",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -439,13 +436,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Rex Orange County",
-              "title": "Pluto Projector",
-              "text": "Pluto Projector by Rex Orange County"
+              "artist": "Machine Gun Kelly",
+              "title": "My ex's best friend",
+              "text": "My ex's best friend by Machine Gun Kelly"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=Pi9J4epTWGM",
+                "link": "https://www.youtube.com/watch?v=J_n01uvyhI8",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -461,13 +458,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Omar Apollo",
-              "title": "Evergreen",
-              "text": "Evergreen by Oman Apollo"
+              "artist": "Bruno Mars",
+              "title": "Grenade",
+              "text": "Grenade by Bruno Mars"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=ixTkLjTBQyk",
+                "link": "https://www.youtube.com/watch?v=SR6iYWJxHqs",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -483,13 +480,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Diana Ross",
-              "title": "I'm Coming Out",
-              "text": "I'm Coming Out by Diana Ross"
+              "artist": "Guns N' Roses",
+              "title": "Paradise City",
+              "text": "Pasradise City by Guns N' Roses"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=3pmt-wWzC1E",
+                "link": "https://www.youtube.com/watch?v=Rbm6GXllBiw",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -505,13 +502,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "The Kinks",
-              "title": "Victoria",
-              "text": "Victoria by The Kinks"
+              "artist": "Grizzly Bear",
+              "title": "gun-shy",
+              "text": "gun-shy by Grizzly Bear"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=qG3JyuAUE2E",
+                "link": "https://www.youtube.com/watch?v=wIyGBQW_9Pc",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -527,13 +524,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Train",
-              "title": "Drops of Jupiter",
-              "text": "Drops of Jupiter by Train"
+              "artist": "BTS",
+              "title": "Dynamite",
+              "text": "Dynamite by BTS"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=7Xf-Lesrkuc",
+                "link": "https://www.youtube.com/watch?v=gdZLi9oWNZg",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -549,13 +546,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "SZA",
-              "title": "Saturn",
-              "text": "Saturn by SZA"
+              "artist": "M.I.A",
+              "title": "Swords",
+              "text": "Swords by M.I.A"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=V2G8ESoDXm8",
+                "link": "https://www.youtube.com/watch?v=4SPbbKn9SC8",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -571,13 +568,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Jimi Hendrix",
-              "title": "Valleys of Neptune",
-              "text": "Valleys of Neptune by Jimi Hendrix"
+              "artist": "The Knife",
+              "title": "Heartbeats",
+              "text": "Hearbeats by The Knife"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=DjxH_a5U7wA",
+                "link": "https://www.youtube.com/watch?v=pPD8Ja64mRU",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -593,13 +590,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Bruno Mars",
-              "title": "That's What I Like",
-              "text": "That's What I Like by Bruno Mars"
+              "artist": "Charlie xcx",
+              "title": "Sympathy is a knife",
+              "text": "Sympathy is a knife by Charlie xcx"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=PMivT7MJ41M",
+                "link": "https://www.youtube.com/watch?v=S9s4Ckt-aKo",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -615,13 +612,13 @@ export const data = {
               "text": "Identify the song and the artist."
             },
             "answer": {
-              "artist": "Gym Class Heroes",
-              "title": "Cupid's Chokehold",
-              "text": "Cupid's Chokehold by Gym Class Heroes"
+              "artist": "Britney Spears",
+              "title": "Piece Of Me",
+              "text": "Piece Of Me by Britney Spears"
             },
             "links": [
               {
-                "link": "https://www.youtube.com/watch?v=eiiU-Fky18s",
+                "link": "https://www.youtube.com/watch?v=u4FF6MpcsRw",
                 "metadata": {
                   "name": "Youtube"
                 }
@@ -637,7 +634,7 @@ export const data = {
               "text": "What's the theme unifying each song/artist?"
             },
             "answer": {
-              "text": "Roman Gods"
+              "text": "Weapons"
             }
           }
         ]
@@ -656,10 +653,10 @@ export const data = {
               "index": 0
             },
             "question": {
-              "text": "'Let them eat cake' is often attributed to Marie Antoinette. Though the phrase appeared in a philosophical text when she was nine years of age. Which philosopher used this phrase?"
+              "text": "What's the longest time in an abdominal plank position?+-15 minutes"
             },
             "answer": {
-              "text": "Jean-Jacques Rousseau"
+              "text": "9 hour 38 minutes 47 seconds"
             }
           },
           {
@@ -668,10 +665,10 @@ export const data = {
               "index": 1
             },
             "question": {
-              "text": "Where was Grammarly founded?"
+              "text": "What the sarco pod machine in Switzerland used for?"
             },
             "answer": {
-              "text": "Ukraine"
+              "text": "Euthanasia"
             }
           },
           {
@@ -680,11 +677,14 @@ export const data = {
               "index": 2
             },
             "question": {
-              "text": "What does GPT in ChatGPT stands for?"
+              "text": "Which movie is this from? Everybody was drinking Cristal champagne and then it started to get wild and people was gettin' freaky in the pool and stuff. I look over and there was your girl getting buckwild in the Jacuzzi."
             },
             "answer": {
-              "text": "Generative pre-trained transformer"
-            }
+              "text": "Scary Movie"
+            },
+            "hints": [
+              {"text": "Next line after. Other person: So? Same person: With a backup dancer. I mean, that's nasty! That's...that's lower than a security guard. At least security can get you backstage. She don't love herself!"}
+            ]
           },
           {
             "metadata": {
@@ -692,10 +692,10 @@ export const data = {
               "index": 3
             },
             "question": {
-              "text": "When was the last execution by the guillotine in France? (+-3 years)"
+              "text": "What's a japanese sword characterized by a curved, single-edged blade with a circular or squared guard and long grip to accommodate two hands?"
             },
             "answer": {
-              "text": "1977"
+              "text": "Katana"
             }
           },
           {
@@ -704,10 +704,10 @@ export const data = {
               "index": 4
             },
             "question": {
-              "text": "Who was the first black actor/actress to win an academy award?"
+              "text": "What is the name of Alice's cat in Alice in Wonderland?"
             },
             "answer": {
-              "text": "Hattie McDaniel"
+              "text": "Dinah"
             }
           },
           {
@@ -716,10 +716,10 @@ export const data = {
               "index": 5
             },
             "question": {
-              "text": "With 158 verses, which country has the longest national anthem?"
+              "text": "What's the natural form of asexual reproduction in which growth and development of an embryo occur directly from an egg, without need for fertilization?"
             },
             "answer": {
-              "text": "Greece"
+              "text": "Parthenogenesis"
             }
           },
           {
@@ -728,10 +728,10 @@ export const data = {
               "index": 6
             },
             "question": {
-              "text": "1972 film, Pink Flamingos, was dedicated to which infamous criminal trials?"   
+              "text": "What is nosocomephobia?"   
             },
             "answer": {
-              "text": "Manson family murders"
+              "text": "Intense fear of hospitals"
             }
           },
           {
@@ -740,10 +740,10 @@ export const data = {
               "index": 7
             },
             "question": {
-              "text": "Define or give an example of retronym?"   
+              "text": "What's the name of Hello Kitty's twin sister?"   
             },
             "answer": {
-              "text": "A term that is newly created and adopted to distinguish the original or older version from more recent verion. Example: acoustic guitar for guitar, analog watch, film camera, snail mail"
+              "text": "Mimmy White"
             }
           },
           {
@@ -752,10 +752,10 @@ export const data = {
               "index": 8
             },
             "question": {
-              "text": "What does SNAFU stands for? It's a sarcastic acronym originally used in the military?"
+              "text": "What is the symbolic or ritual gesture or pose in Hinduism, Jainism and Buddhism called?"
             },
             "answer": {
-              "text": "Situation normal: all fucked up"
+              "text": "Mudra"
             }
           },
           {
@@ -764,10 +764,10 @@ export const data = {
               "index": 9
             },
             "question": {
-              "text": "There are 9 countries with nuclear weapons but only 5 (US, Russia, UK, France, China) are under the terms of the treaty of the Non-Proliferation of Nuclear Weapons(NPT). What are the four remaining countries?"
+              "text": "What is the name of the ship/submarine in the movie '20,000 Leagues Under The Sea'?"
             },
             "answer": {
-              "text": "India, Pakistan, North Korea, Israel"
+              "text": "Nautilus"
             }
           }
         ]
