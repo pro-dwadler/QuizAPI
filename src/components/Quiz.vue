@@ -37,7 +37,7 @@ function exists(obj) {
 <template>
     <v-container fill-height fluid>
         <v-row no-gutters>
-            <v-col cols="1" class="d-flex flex-column justify-space-between">
+            <v-col cols="2" class="d-flex flex-column justify-space-between">
                 <v-btn icon="mdi-chevron-up" variant="plain" @click="prev"></v-btn>
                 <v-item-group v-model="selectedQuery" class="text-center" mandatory>
                     <v-row>

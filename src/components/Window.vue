@@ -7,7 +7,7 @@
           </template>
   
           <v-app-bar-title>
-            Pub Quiz - {{ quiz.date.year }}, {{ quiz.date.date }}, {{ quiz.date.day }}
+            Pub Quiz
           </v-app-bar-title>
   
           <template v-slot:append>
@@ -28,6 +28,8 @@
       </v-navigation-drawer>
   
         <v-main>
+          <v-card elevation="0" class="mx-auto" :title="`${quiz.date.year}, ${quiz.date.date}, ${quiz.date.day}`">
+          </v-card>
           <v-tabs v-model="tab" bg-color="transparent" grow>
             <v-tab v-for="item in quiz.modules" :key="item.metadata.type.name" :value="item"
               :text="item.metadata.type.name" />
@@ -48,7 +50,7 @@
   import { ref, onMounted, watch } from 'vue'
   import Quiz from './Quiz.vue';
 import { getAllQuiz, getInFormat, getLastQuiz } from '../utils/dataUtil';
-  const theme = ref('dark')
+  const theme = ref('light')
   const tab = ref(null)
   const showAnswer = ref(false)
   const datePicker = ref(false)
