@@ -68,7 +68,7 @@ function exists(obj) {
                             <v-row>
                                 <v-col v-for="(image, index) in query.images" :key="index" class="d-flex child-flex"
                                     cols="4">
-                                    <v-img :src="getImageUrl(date.d, image.name)" aspect-ratio="1" cover>
+                                    <v-img :src="getImageUrl(date.d, image.name)" cover>
                                         <template v-slot:placeholder>
                                             <v-row align="center" class="fill-height ma-0" justify="center">
                                                 <v-progress-circular color="grey-lighten-5"
