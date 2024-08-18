@@ -26,7 +26,13 @@
       </v-navigation-drawer>
 
       <v-main>
-        <v-card elevation="0" class="mx-auto" :title="`${quiz.date.year}, ${quiz.date.date}, ${quiz.date.day}`">
+        <v-card elevation="0" class="mx-auto">
+          <template v-slot:title>
+            <span class="font-weight-black">
+              {{ quiz.date.year }}, {{ quiz.date.date }}, {{ quiz.date.day }}
+              <i>{{ quiz.description }}</i>
+            </span>
+          </template>
         </v-card>
         <v-tabs v-model="tab" bg-color="transparent" grow>
           <v-tab v-for="item in quiz.modules" :key="item.metadata.type.name" :value="item"
@@ -35,7 +41,8 @@
 
         <v-tabs-window v-model="tab">
           <v-tabs-window-item v-for="item in quiz.modules" :key="item.metadata.type.name" :value="item">
-            <Quiz :quiz="item" :date="quiz.date" :show-answer="showAnswer" />
+            <Chart v-if="item.metadata.type.type == 'Chart'" :data="item.data"/>
+            <Quiz v-else :quiz="item" :date="quiz.date" :show-answer="showAnswer" />
           </v-tabs-window-item>
         </v-tabs-window>
       </v-main>
@@ -45,9 +52,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue'
 import Quiz from './Quiz.vue';
+import Chart from './Chart.vue';
+import { ref, onMounted, watch } from 'vue'
 import { getAllQuiz, getInFormat, getLastQuiz } from '../utils/dataUtil';
+
 const theme = ref('light')
 const tab = ref(null)
 const showAnswer = ref(false)
@@ -55,9 +64,11 @@ const datePicker = ref(false)
 const date = ref(new Date('2024-07-01'))
 const allowedDates = ref([])
 const allQuizes = ref([])
+
 function onClick() {
   theme.value = theme.value === 'light' ? 'dark' : 'light'
 }
+
 onMounted(async () => {
   await getAllQuiz()
     .then(res => {

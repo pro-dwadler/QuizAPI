@@ -3,6 +3,8 @@
 import { ref } from 'vue'
 import Hint from './Hint.vue';
 
+const testData = ref("<s>hey</s> yay!")
+
 const props = defineProps({
     showAnswer: {
         type: Boolean,
@@ -106,10 +108,25 @@ function exists(obj) {
                                         rows="1" auto-grow />
                                     <v-textarea v-if="showAnswer" label="Correct Answer" v-model="query.answer.text"
                                         variant="outlined" readonly rows="1" auto-grow />
-                                    <v-textarea v-if="!showAnswer" label="Hidden Answer" v-model="dummyAnswer"
+                                    <v-textarea v-else label="Hidden Answer" v-model="dummyAnswer"
                                         variant="outlined" readonly rows="1" auto-grow />
                                 </v-col>
                             </v-row>
+
+                            <v-divider class="ma-5" v-if="exists(query.answer.teams)" />
+
+                            <v-row>
+                                <v-col>
+                                    <v-card class="ma-2" v-for="team in query.answer.teams" :title="team.name" variant="outlined">
+                                        <v-divider />
+                                        <v-card-text>
+                                            <p v-if="showAnswer" v-html="team.answer"/>
+                                            <p v-else>{{ dummyAnswer }}</p>
+                                        </v-card-text>
+                                    </v-card>
+                                </v-col>
+                            </v-row>
+
                         </v-sheet>
                     </v-window-item>
                 </v-window>
