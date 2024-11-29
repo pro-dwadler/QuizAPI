@@ -1,9 +1,9 @@
 export const data = {
   "date": {
     "day": "Monday",
-    "date": "November 12",
+    "date": "November 29",
     "year": "2024",
-    "d": "2024-11-25"
+    "d": "2024-11-29"
   },
   "description": null,
   "modules": [

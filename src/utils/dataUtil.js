@@ -18,7 +18,7 @@ export function getInFormat(date) {
 }
 
 export async function getLastQuiz() {
-    return d2024_08_12
+    return d2024_11_29
 }
 
 export async function getAllQuiz() {
