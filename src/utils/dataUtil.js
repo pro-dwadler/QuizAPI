@@ -35,7 +35,7 @@ export async function getAllQuiz() {
                 d2024_08_04.date.d,
                 d2024_08_10.date.d,
                 d2024_08_12.date.d,
-                d2024_11_29.data.d,
+                d2024_11_29.date.d,
             ]
         },
         [d2024_06_03.date.d]: d2024_06_03,
