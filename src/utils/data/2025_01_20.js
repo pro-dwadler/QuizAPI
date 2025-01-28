@@ -1,9 +1,9 @@
 export const data = {
   "date": {
     "day": "Monday",
-    "date": "January 13",
+    "date": "January 20",
     "year": "2025",
-    "d": "2025-01-13"
+    "d": "2025-01-20"
   },
   "description": null,
   "modules": [
@@ -12,7 +12,7 @@ export const data = {
         "type": {
           "name": "Anagram"
         },
-        "description": "World Leaders"
+        "description": "best hits of the 2010's"
       },
       "questions": [
         {
@@ -21,10 +21,10 @@ export const data = {
             "index": 0
           },
           "question": {
-            "text": "Lesbian Rope"
+            "text": "Hoe layout weevily"
           },
           "answer": {
-            "text": "Isabel Peron"
+            "text": "Love the way you lie"
           }
         },
         {
@@ -33,10 +33,10 @@ export const data = {
             "index": 1
           },
           "question": {
-            "text": "Profane Pics"
+            "text": "Goofy ledger"
           },
           "answer": {
-            "text": "Pope Francis"
+            "text": "Edge of Glory"
           }
         },
         {
@@ -45,10 +45,10 @@ export const data = {
             "index": 2
           },
           "question": {
-            "text": "Retreating Cheetah"
+            "text": "Bell hoing tin"
           },
           "answer": {
-            "text": "Catherine The Great"
+            "text": "Hotline bling"
           }
         },
         {
@@ -57,10 +57,10 @@ export const data = {
             "index": 3
           },
           "question": {
-            "text": "Cruel Halal Edges"
+            "text": "Badmouthed snowiest Tokyo"
           },
           "answer": {
-            "text": "Charles De Gaulle"
+            "text": "Somebody that i used to know"
           }
         },
         {
@@ -69,10 +69,10 @@ export const data = {
             "index": 4
           },
           "question": {
-            "text": "Hanks Hen Gig"
+            "text": "Two Belgium honey"
           },
           "answer": {
-            "text": "Genghis Khan"
+            "text": "You belong with me"
           }
         },
         {
@@ -81,10 +81,10 @@ export const data = {
             "index": 5
           },
           "question": {
-            "text": "Hairball Conman"
+            "text": "The arm checkout"
           },
           "answer": {
-            "text": "Abraham Lincoln"
+            "text": "take me to church"
           }
         },
         {
@@ -93,10 +93,10 @@ export const data = {
             "index": 6
           },
           "question": {
-            "text": "Mars Oblivion"
+            "text": "Envy hermit veggie"
           },
           "answer": {
-            "text": "Simon Bolivar"
+            "text": "give me everything"
           }
         },
         {
@@ -105,10 +105,10 @@ export const data = {
             "index": 7
           },
           "question": {
-            "text": "Ghana Maid Math"
+            "text": "Heliport needling"
           },
           "answer": {
-            "text": "Mahatma Gandhi"
+            "text": "rolling in the deep"
           }
         },
         {
@@ -117,10 +117,10 @@ export const data = {
             "index": 8
           },
           "question": {
-            "text": "Inch Him Ho"
+            "text": "Eater endgame"
           },
           "answer": {
-            "text": "Ho Chi Minh"
+            "text": "teenage dream"
           }
         },
         {
@@ -129,10 +129,10 @@ export const data = {
             "index": 9
           },
           "question": {
-            "text": "Dryly Levy Smoky Zone"
+            "text": "Habituate mousy wakeful"
           },
           "answer": {
-            "text": "Volodymyr Zelenskyy"
+            "text": "what makes you beautiful"
           }
         }
       ]
@@ -151,10 +151,10 @@ export const data = {
             "index": 0
           },
           "question": {
-            "text": "This process is the weathering of particles as they are worn away from wind or water?"
+            "text": "Who is the Greek goddess of wisdom and warfare?"
           },
           "answer": {
-            "text": "Erosion"
+            "text": "Athena"
           }
         },
         {
@@ -163,10 +163,10 @@ export const data = {
             "index": 1
           },
           "question": {
-            "text": "There was an early internet phenomenon starting around 2007, where you would send someone a link where it would send you to a music video. The trend was called rickrolling. What song were you sending people when you were rickrolling them?"
+            "text": "What's the largest organ inside the human body?"
           },
           "answer": {
-            "text": "Never Gonna Give You Up"
+            "text": "Liver"
           }
         },
         {
@@ -175,10 +175,10 @@ export const data = {
             "index": 2
           },
           "question": {
-            "text": "What is the name of the German constitution in German?"
+            "text": "What is the main ingredient to make a hummus?"
           },
           "answer": {
-            "text": "Grundgesetz"
+            "text": "Chickpeas"
           }
         },
         {
@@ -187,10 +187,10 @@ export const data = {
             "index": 3
           },
           "question": {
-            "text": "What are the two holiest in the religion Islam?"
+            "text": "What city has the nickname Big Apple?"
           },
           "answer": {
-            "text": "Mecca and Medina"
+            "text": "New York City"
           }
         },
         {
@@ -199,10 +199,10 @@ export const data = {
             "index": 4
           },
           "question": {
-            "text": "What is the capital city of New Zealand?"
+            "text": "What is the smallest unit of matter?"
           },
           "answer": {
-            "text": "Wellington"
+            "text": "Atoms/Quarks"
           }
         },
         {
@@ -211,10 +211,10 @@ export const data = {
             "index": 5
           },
           "question": {
-            "text": "pH test measures acidity or anklanity. If something has a pH of 7, what is it considered to be on the pH scale?"
+            "text": "What is the only mammal capable of true flight?"
           },
           "answer": {
-            "text": "Neutral"
+            "text": "Bats"
           }
         },
         {
@@ -223,13 +223,10 @@ export const data = {
             "index": 6
           },
           "question": {
-            "text": "Which well known Swiss company is known for its luxury watches and began as a supplier of precision equipment for Arctic expeditions."
+            "text": "Which continent has the most countries?"
           },
-          "hints": [
-            { "text": "founded in 1905" }
-          ],
           "answer": {
-            "text": "Rolex"
+            "text": "Africa"
           }
         },
         {
@@ -238,10 +235,10 @@ export const data = {
             "index": 7
           },
           "question": {
-            "text": "Which long running quiz show challenges contestants to respond with questions rather than answer?"
+            "text": "Which scientist formulated the laws of motion?"
           },
           "answer": {
-            "text": "Jeopardy!"
+            "text": "Sir Issac Newton"
           }
         },
         {
@@ -250,10 +247,10 @@ export const data = {
             "index": 8
           },
           "question": {
-            "text": "What is Sherlock Holmes's address?"
+            "text": "What is the official language of Egypt?"
           },
           "answer": {
-            "text": "221B Baker Street"
+            "text": "Arabic"
           }
         },
         {
@@ -262,13 +259,10 @@ export const data = {
             "index": 9
           },
           "question": {
-            "text": "Which filmmaker is known for his movies Rashomon, Seven Samurai and Yojimbo?"
+            "text": "What is the smallest planet in our solar system?"
           },
-          "hints": [
-            { "text": "he's a Japanese filmmaker" }
-          ],
           "answer": {
-            "text": "Akira Kurosawa"
+            "text": "Mercury (People somehow also got for Pluto)"
           }
         }
       ]
@@ -287,10 +281,10 @@ export const data = {
             "index": 0
           },
           "question": {
-            "text": "This political organization was founded by Huey P. Newton and Bobby Seale in 1966. What is the name of this organization?"
+            "text": "In the song 'Mambo No. 5' by Lou Bega, which woman's name is mentioned first?"
           },
           "answer": {
-            "text": "Black Panther Party"
+            "text": "Angela"
           }
         },
         {
@@ -299,10 +293,10 @@ export const data = {
             "index": 1
           },
           "question": {
-            "text": "Horseradish was the first commercially packaged and sold food stuff by which Pittsburgh based company?"
+            "text": "What is Zendaya's last name?"
           },
           "answer": {
-            "text": "Heinz"
+            "text": "Coleman"
           }
         },
         {
@@ -311,10 +305,10 @@ export const data = {
             "index": 2
           },
           "question": {
-            "text": "Which Japanese dyeing technique involves dying fabric with indigo and intricate folding or binding pattern?"
+            "text": "What's the third most populated country in the world?"
           },
           "answer": {
-            "text": "Shibori"
+            "text": "US"
           }
         },
         {
@@ -323,10 +317,10 @@ export const data = {
             "index": 3
           },
           "question": {
-            "text": "What is the term for the smallest unit of a digital image?"
+            "text": "What is David Lynch's first film?"
           },
           "answer": {
-            "text": "Pixel"
+            "text": "Eraserhead"
           }
         },
         {
@@ -335,10 +329,10 @@ export const data = {
             "index": 4
           },
           "question": {
-            "text": "The new Love Island is premiering tonight. What is the name of the new season starting tonight?"
+            "text": "Which river flows through India and Bangladesh and is considered a holy river in Indian culture?"
           },
           "answer": {
-            "text": "Love Island All Stars"
+            "text": "Gangas river"
           }
         },
         {
@@ -347,10 +341,10 @@ export const data = {
             "index": 5
           },
           "question": {
-            "text": "Which decade was the rubik's cube invented?"
+            "text": "What are the following things names of: Sable, Christmas, Disappointment."
           },
           "answer": {
-            "text": "1970s"
+            "text": "Name of Islands"
           }
         },
         {
@@ -359,14 +353,19 @@ export const data = {
             "index": 6
           },
           "question": {
-            "text": "Which fictional character said the following three quotes: 1. Insufficient facts always invite danger. 2. Without followers, evil cannot spread. 3. May I say that I have not thoroughly enjoyed serving with Humans? I find their illogic and foolish emotions a constant irritant."
+            "text": "What is the name of the song and the artist of this drum cover?"
           },
-          "hints": [
-            { "text": "this character is in movies and tv (and theoretically in books, though you might know of them)" }
-          ],
           "answer": {
-            "text": "Spock"
-          }
+            "text": "Maps by Yeah Yeah Yeahs"
+          },
+          "links": [
+            {
+              "link": "https://www.youtube.com/watch?v=cvbhelWDiHc",
+              "metadata": {
+                "name": "Youtube"
+              }
+            }
+          ]
         },
         {
           "metadata": {
@@ -374,10 +373,10 @@ export const data = {
             "index": 7
           },
           "question": {
-            "text": "What is a collective term for a Jellyfish?"
+            "text": "Who was the founder and the first president of the Church of Jesus Christ of Latter-day Saints?"
           },
           "answer": {
-            "text": "Smack"
+            "text": "Joseph Smith"
           }
         },
         {
@@ -386,10 +385,10 @@ export const data = {
             "index": 8
           },
           "question": {
-            "text": "What is the most widely spoken (non-native) language in Africa, in terms of total speakers?"
+            "text": "Which country artist is performed in the 2025 US president swearing-in ceremony?"
           },
           "answer": {
-            "text": "Arabic"
+            "text": "Carrie Underwood"
           }
         },
         {
@@ -398,10 +397,10 @@ export const data = {
             "index": 9
           },
           "question": {
-            "text": "Last week President elect Donal Trump suggested that he could use military force to aquire which two areas? one is country and another is not"
+            "text": "Who was the first black woman to win a Grammy award in history?"
           },
           "answer": {
-            "text": "Greenland and Panama Canal"
+            "text": "Ella Fitzgerald"
           }
         }
       ]
@@ -423,11 +422,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Run Run Run by The Velvet Underground"
+            "text": "Losing My Religion by R.E.M."
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=m9ufOljsFZQ",
+              "link": "https://www.youtube.com/watch?v=japBNRP47-8",
               "metadata": {
                 "name": "Youtube"
               }
@@ -443,11 +442,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "SLIDE by Doechii"
+            "text": "Little Dark Age by MGMT"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=lPJHsXfbaKs",
+              "link": "https://www.youtube.com/watch?v=BoatSoGva_I",
               "metadata": {
                 "name": "Youtube"
               }
@@ -463,11 +462,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Rollin' (Air Raid Vehicle) by Limp Bizkit"
+            "text": "T.N.T. by AC/DC"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=RYnFIRc0k6E",
+              "link": "https://www.youtube.com/watch?v=CiJeSSzu9Bo",
               "metadata": {
                 "name": "Youtube"
               }
@@ -483,11 +482,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Bound 2 by Kanye West"
+            "text": "Unpretty by TLC"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=BBAtAM7vtgc",
+              "link": "https://www.youtube.com/watch?v=QsJa-6Ci1Rk",
               "metadata": {
                 "name": "Youtube"
               }
@@ -503,11 +502,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Under the Boardwalk by The Drifters"
+            "text": "Happy New Year by ABBA"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=PSddD6w5SKc",
+              "link": "https://www.youtube.com/watch?v=3Uo0JAUWijM",
               "metadata": {
                 "name": "Youtube"
               }
@@ -523,11 +522,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Young Hearts Run Free by Candi Station"
+            "text": "YMCA by Village People"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=wddgskIRVeg",
+              "link": "https://www.youtube.com/watch?v=CS9OO0S5w2k",
               "metadata": {
                 "name": "Youtube"
               }
@@ -543,11 +542,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Gallop by SOPHIE"
+            "text": "WAP by Cardi B, Megan Thee Stallion"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=04WsmnNctTA",
+              "link": "https://www.youtube.com/watch?v=Wc5IbN4xw70",
               "metadata": {
                 "name": "Youtube"
               }
@@ -563,11 +562,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Cherry Bomb by The Runaways"
+            "text": "Y.A.L.A. by M.I.A."
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=_EBvXpjudf8",
+              "link": "https://www.youtube.com/watch?v=KJ2lsG3I8IU",
               "metadata": {
                 "name": "Youtube"
               }
@@ -583,11 +582,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Pull Up by Burna Boy"
+            "text": "SOS by Rihanna"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=bMyrBds_9Zc",
+              "link": "https://www.youtube.com/watch?v=IXmF4GbA86E",
               "metadata": {
                 "name": "Youtube"
               }
@@ -603,11 +602,11 @@ export const data = {
             "text": "Identify the song and the artist."
           },
           "answer": {
-            "text": "Gimme Shelter by The Rolling Stones"
+            "text": "G.U.Y. by Lady Gaga"
           },
           "links": [
             {
-              "link": "https://www.youtube.com/watch?v=RbmS3tQJ7Os",
+              "link": "https://www.youtube.com/watch?v=ohs0a-QnFF4",
               "metadata": {
                 "name": "Youtube"
               }
@@ -623,7 +622,7 @@ export const data = {
             "text": "What's the theme unifying each song/artist?"
           },
           "answer": {
-            "text": "Movement/Motion"
+            "text": "Acronym"
           }
         }
       ]
@@ -642,10 +641,10 @@ export const data = {
             "index": 0
           },
           "question": {
-            "text": "What is Pantone's colour of the year?"
+            "text": "In the 2022 movie Tár, Cate Blanchett plays a female conductor of an orchestra. Lydia Tár is chief conductor of which city's orchestra?"
           },
           "answer": {
-            "text": "Mocha Mousse"
+            "text": "Berlin"
           }
         },
         {
@@ -654,10 +653,10 @@ export const data = {
             "index": 1
           },
           "question": {
-            "text": "What was Oiver Cromwell's title at the time of his death? He held this title since Dec 1653 till his death in 1658."
+            "text": "In the overall population of Berlin, how many percentage of the population is foreigners by 2024? +-3%"
           },
           "answer": {
-            "text": "Lord Protector"
+            "text": "23%"
           }
         },
         {
@@ -666,10 +665,10 @@ export const data = {
             "index": 2
           },
           "question": {
-            "text": "What do you call a single leg squat where the non-working leg is extending outward?"
+            "text": "What is the measurement unit of a luminous intensity?"
           },
           "answer": {
-            "text": "Pistol squat/Skater squat"
+            "text": "Candela (cd)"
           }
         },
         {
@@ -678,10 +677,10 @@ export const data = {
             "index": 3
           },
           "question": {
-            "text": "What makes a Blan De Noir wine distinctive?"
+            "text": "Which product did they model for: Estonia model Carmen Kass, Charlize Theron, Rihanna?"
           },
           "answer": {
-            "text": "White wine from red grapes"
+            "text": "Dior Perfume"
           }
         },
         {
@@ -690,10 +689,10 @@ export const data = {
             "index": 4
           },
           "question": {
-            "text": "In the band 'The Beach Boys', there were a set of brothers. What was there last name?"
+            "text": "Which actor is the highest-grossing actor of all time with a total around 27.7 billion?"
           },
           "answer": {
-            "text": "Wilson"
+            "text": "Samuel L. Jackson"
           },
         },
         {
@@ -702,10 +701,10 @@ export const data = {
             "index": 5
           },
           "question": {
-            "text": "The Eustachian tube connects throat to which other part of the body?"
+            "text": "What was the massive asteroid that hit 65 million years ago that killed all the dinosaurs?"
           },
           "answer": {
-            "text": "Ear"
+            "text": "Chicxulub"
           }
         },
         {
@@ -714,10 +713,10 @@ export const data = {
             "index": 6
           },
           "question": {
-            "text": "What is the etymology of the name of the country Mexico? Formed from three indigenous words meaning something: mētztli, xīctli and co."
+            "text": "Lack of what can cause beri-beri disease?"
           },
           "answer": {
-            "text": "mētztli=moon, xīctli=navel, co=place; Bellybutton/Center of the moon"
+            "text": "Lack of vitamin-B1"
           }
         },
         {
@@ -726,10 +725,10 @@ export const data = {
             "index": 7
           },
           "question": {
-            "text": "In Greek Mythology, who put Hercules under a spell/curse causing him to kill his entire family?"
+            "text": "What type of vivarium incorporates both, terrestrial and aquatic elements?"
           },
           "answer": {
-            "text": "Hera"
+            "text": "Paludarium"
           }
         },
         {
@@ -738,10 +737,10 @@ export const data = {
             "index": 8
           },
           "question": {
-            "text": "Which Iranian author wrote the memoir Persepolis? Which depicts her childhood experience after and during the Islamic revolution."
+            "text": "Michelin gives stars to the best restaurant in the world. It also recognizes restaurants that serve three-course meals at a reasonable price. What is it called?"
           },
           "answer": {
-            "text": "Marjane Satrapi"
+            "text": "Michelin Bib Gourmand"
           },
         },
         {
@@ -750,10 +749,10 @@ export const data = {
             "index": 9
           },
           "question": {
-            "text": "PrEP is used to prevent HIV infection. What does PrEP stands for?"
+            "text": "What is the technical term for flowering plants that bear flowers and fruits?"
           },
           "answer": {
-            "text": "Pre-Exposure Prophylaxis"
+            "text": "Angiosperms"
           }
         }
       ]
@@ -767,11 +766,11 @@ export const data = {
         "description": "Overall team points",
       },
       "data": {
-        labels: ['14', '13', '12', '11 (Somebodies)', '10', '8', '9', '2', '1 (Questionable Answers)'],
+        labels: ['15 (20th team)', '14', '13', '7', '6 (NLA)', '5 (Somebodies)', '2', '1 (TimyTrombone)'],
         datasets: [
           {
             label: 'Points',
-            data: [19, 29, 29, 29.5, 31.5, 31.5, 31.5, 37.5, 39.5],
+            data: [18, 24.5, 26, 33.5, 34, 35.5, 38, 39.5],
             borderColor: 'rgb(239, 71, 111)',
             backgroundColor: 'rgba(239, 71, 111, 0.5)',
             borderWidth: 2,
