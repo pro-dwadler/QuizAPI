@@ -12,6 +12,7 @@ import { data as d2024_08_12 } from './data/2024_08_12.js';
 import { data as d2024_11_29 } from './data/2024_11_29.js';
 import { data as d2025_01_13 } from './data/2025_01_13.js';
 import { data as d2025_01_20 } from './data/2025_01_20.js';
+import { data as d2025_01_27 } from './data/2025_01_27.js';
 import dayjs from 'dayjs';
 
 export function getInFormat(date) {
@@ -20,7 +21,7 @@ export function getInFormat(date) {
 }
 
 export async function getLastQuiz() {
-    return d2025_01_20
+    return d2025_01_27
 }
 
 export async function getAllQuiz() {
@@ -40,6 +41,7 @@ export async function getAllQuiz() {
                 d2024_11_29.date.d,
                 d2025_01_13.date.d,
                 d2025_01_20.date.d,
+                d2025_01_27.date.d,
             ]
         },
         [d2024_06_03.date.d]: d2024_06_03,
@@ -55,5 +57,6 @@ export async function getAllQuiz() {
         [d2024_11_29.date.d]: d2024_11_29,
         [d2025_01_13.date.d]: d2025_01_13,
         [d2025_01_20.date.d]: d2025_01_20,
+        [d2025_01_27.date.d]: d2025_01_27,
     }
 }
